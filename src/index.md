@@ -8,8 +8,6 @@ intro:
   cta: 'Take a look at some of our work; find out who we are; then get in touch and tell us what you want to achieve.'
   buttonText: 'Contact us'
   buttonUrl: '/contact'
-  image: '/images/bg/toast.jpg'
-  imageAlt: 'Buttered toasted white bread'
 ---
 
 This is pretty _rad_, right??????
