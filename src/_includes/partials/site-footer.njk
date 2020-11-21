@@ -1,5 +1,25 @@
 <footer role="contentinfo" class="site-foot">
+
   <div class="wrapper">
-    <p>Hello</p>
+
+    <div class="[ site-foot__inner ] [ text-300 ] [ font-header-light ]">
+
+      <ul class="[ list ] [ flow-x ]">
+        <li><a href="mailto:{{ site.email }}">Email us</a></li>
+        <li><a href="tel:{{ site.phone }}">Call us</a></li>
+        <li><a href="{{ site.calendy }}">Book a meeting</a></li>
+      </ul>
+
+      <p>Based in Frome and London</p>
+  
+      <ul class="[ list ] [ flow-x ]">
+        <li><a href="{{ site.twitter }}">{% include "partials/twitter.svg" %}</a></li>
+        <li><a href="{{ site.instagram }}">{% include "partials/instagram.svg" %}</a></li>
+        <li><a href="{{ site.linked }}">{% include "partials/linkedin.svg" %}</a></li>
+      </ul>
+
+    </div>
+    
   </div>
+
 </footer>
