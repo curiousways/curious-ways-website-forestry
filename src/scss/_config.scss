@@ -12,9 +12,11 @@ $gorko-base-size: 1rem;
  * it is relevant for (font-size, margin, padding). All items are
  * calcuated off the base size, so change that and cascade across
  * your whole project.
+
+ * SCALE ADJUSTED - 300 from 0.75 to 0.875
  */
 $gorko-size-scale: (
-  '300': $gorko-base-size * 0.75,
+  '300': $gorko-base-size * 0.875,
   '400': $gorko-base-size,
   '500': $gorko-base-size * 1.33,
   '600': $gorko-base-size * 1.77,
@@ -78,6 +80,7 @@ $gorko-config: (
     'items': (
       'base': '"Aribau Grotesk", Arial, serif',
       'header-heavy': '"Blacker Pro Med", Georgia, serif',
+      'header-reg': '"Blacker Pro Light", Georgia, serif',
       'header-light': '"Blacker Pro Light", Georgia, serif',
     ),
     'output': 'standard',
