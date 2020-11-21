@@ -1,0 +1,4 @@
+.site-wrap {
+  // TODO change pixel value when height of footer is known;
+  min-height: calc(100vh - 80px); // Height of the footer based on content and padding rules
+}

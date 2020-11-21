@@ -7,5 +7,10 @@ $outputTokenCSS: false;
 // Next: pull in gorko for design tokens
 @import '../../node_modules/gorko/gorko.scss';
 
-// Pull in blocks
-@import 'blocks/intro';
+.home {
+  background: green;
+  // TODO change pixel value when height of footer and header is known;
+  height: calc(100vh - 190px); // 100vh minus the height of the footer + height of the header. Heights based on content + padding totals
+  display: flex;
+  align-items: center;
+}
