@@ -1,11 +1,12 @@
 .site-foot {
   padding: get-size('500') 0 get-size('700') 0;
-  text-align: center;
 
   &__inner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    @include media-query('md') {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }
