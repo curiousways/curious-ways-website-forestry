@@ -9,23 +9,23 @@
 // MQ Testing 
 // TODO remove when finished
 
-body {
-  @include media-query('sm') {
-    border: 10px solid cyan;
-  }
-  
-  @include media-query('md') {
-    border: 10px solid magenta;
-  }
-  
-  @include media-query('lg') {
-    border: 10px solid yellow;
-  }
-  
-  @include media-query('xl') {
-    border: 10px solid black;
-  }
-}
+// body {
+//   @include media-query('sm') {
+//     border: 10px solid cyan;
+//   }
+//   
+//   @include media-query('md') {
+//     border: 10px solid magenta;
+//   }
+//   
+//   @include media-query('lg') {
+//     border: 10px solid yellow;
+//   }
+//   
+//   @include media-query('xl') {
+//     border: 10px solid black;
+//   }
+// }
 
 // Global styles start
 :root {
@@ -84,6 +84,7 @@ h4 {
 @import 'blocks/skip-link';
 
 // Import utilities
+@import 'utilities/backgrounds';
 @import 'utilities/flow';
 @import 'utilities/line-breaks';
 @import 'utilities/panel';
