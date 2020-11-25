@@ -109,6 +109,7 @@ $gorko-config: (
     'property': 'font-weight',
   ),
   'breakpoints': (
+    'tiny': '(min-width: 321px)',
     'sm': '(min-width: 25em)',
     'md': '(min-width: 48em)',
     'lg': '(min-width: 72em)',

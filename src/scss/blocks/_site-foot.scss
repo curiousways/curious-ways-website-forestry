@@ -1,5 +1,10 @@
 .site-foot {
-  padding: get-size('500') 0 get-size('700') 0;
+  background: green;
+  padding: get-size('700') 0;
+
+  a {
+    text-decoration: none;
+  }
 
   &__inner {
     @include media-query('md') {
@@ -7,6 +12,35 @@
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
+    }
+
+    &__location {
+      margin:  get-size('500') 0;
+      
+      @include media-query('md') {
+        margin: 0 0 0 get-size('500');
+      }
+    }
+
+    &__contacts {
+      > * + * {
+        margin-top: get-size('300');
+      }
+
+      @include media-query('tiny') {
+        > * + * {
+          margin-left: var(--flow-space, get-size('600'));
+          margin-top: 0;
+        }
+
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    &__social {
+      display: flex;
+      flex-wrap: wrap;
     }
   }
 }

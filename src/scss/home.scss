@@ -11,14 +11,15 @@ $outputTokenCSS: false;
   display: flex;
   align-items: center;
 
-  @media (min-height: 700px) {
+  @media (min-width: 600px) and (min-height: 700px) {
+background: pink;
     // TODO change pixel value when height of footer and header is known;
-    height: calc(100vh - 190px); // 100vh minus the height of the footer + height of the header. Heights based on content + padding totals
+    // Header = 121px
+    // Footer = 101px
+    height: calc(100vh - 222px); // 100vh minus the height of the footer + height of the header. Heights based on content + padding totals
   }
 
-  @include media-query('sm') {
-    padding: get-size('800') 0;  
-    }
+  padding: get-size('800') 0;
 
   @include media-query('md') {
     max-width: 600px;
@@ -31,7 +32,6 @@ $outputTokenCSS: false;
   &__title, 
   &__subtitle,
   &__cta  {
-
     font-size: get-size('600');
 
     @include media-query('xl') {

@@ -4,15 +4,15 @@
 
     <div class="[ site-foot__inner ] [ text-300 font-header-reg ]">
 
-      <ul class="[ list ] [ flow-x ]">
+      <ul class="[ site-foot__inner__contacts ]">
         <li><a href="mailto:{{ site.email }}">Email us</a></li>
         <li><a href="tel:{{ site.phone }}">Call us</a></li>
         <li><a href="{{ site.calendy }}">Book a meeting</a></li>
       </ul>
 
-      <p>Based in Frome and London</p>
+      <p class="site-foot__inner__location">Based in Frome and London</p>
   
-      <ul class="[ list ] [ flow-x flow-space-400 ]">
+      <ul class="[ site-foot__inner__social ] [ flow-x flow-space-300 ]">
         <li><a href="{{ site.twitter }}">{% include "partials/twitter.svg" %}</a></li>
         <li><a href="{{ site.instagram }}">{% include "partials/instagram.svg" %}</a></li>
         <li><a href="{{ site.linked }}">{% include "partials/linkedin.svg" %}</a></li>
