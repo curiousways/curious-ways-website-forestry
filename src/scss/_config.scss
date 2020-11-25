@@ -37,7 +37,9 @@ $gorko-colors: (
   'black': #434343,
   'cream': #FFFFF9,
   'purple': #7361F5,
-  'blue': #11DDDD
+  'blue': #11DDDD,
+  'blue-grad--light': #1DD5E1,
+  'blue-grad--dark': #7361F5
 );
 
 /**
@@ -64,9 +66,8 @@ $gorko-config: (
   'font': (
     'items': (
       'base': '"Aribau Grotesk", Arial, serif',
-      'header-heavy': '"Blacker Pro Med", Georgia, serif',
+      'header-med': '"Blacker Pro Med", Georgia, serif',
       'header-reg': '"Blacker Pro Regular", Georgia, serif',
-      'header-light': '"Blacker Pro Light", Georgia, serif',
     ),
     'output': 'standard',
     'property': 'font-family',

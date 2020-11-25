@@ -61,7 +61,7 @@ h3,
 h4 {
   font-weight: normal;
 
-  @include apply-utility('font', 'header-heavy');
+  @include apply-utility('font', 'header-med');
   @include apply-utility('leading', 'tight');
 }
 
@@ -90,5 +90,6 @@ h4 {
 @import 'utilities/panel';
 @import 'utilities/radius';
 @import 'utilities/site-wrap';
+@import 'utilities/text-links';
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
