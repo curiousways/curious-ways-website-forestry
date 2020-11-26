@@ -3,6 +3,32 @@
 {% set pageBG = 'bg bg--home' %}
 
 {% block content %}
+
+<video class="fade" playsinline autoplay muted poster="polina.jpg" id="home-video" 
+	style="
+	object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+	z-index: 10;
+	transition: opacity 1.5s;
+	">
+  {# <source src="polina.webm" type="video/webm"> #}
+  <source src="video/curiousways.mp4" type="video/mp4">
+</video>
+
+<script type='text/javascript'>
+	var loadingVideo = document.getElementById("home-video");
+
+  loadingVideo.addEventListener('ended', function(e) {
+  	console.log('video ends');
+		loadingVideo.style.opacity = '0';
+		//loadingVideo.remove();
+  })
+</script>
+
 <div class="wrapper">
 	<article class="home">
 		<div class="[ home__content ] [ flow has-text-links ] [ line-break--xl ]">
