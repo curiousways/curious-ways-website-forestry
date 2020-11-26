@@ -2,7 +2,12 @@
   padding: get-size('700') 0;
 
   a {
+    transition: all 0.6s ease-out;
     text-decoration: none;
+  }
+
+  a:hover {
+    color: get-color('purple');
   }
 
   &__inner {
