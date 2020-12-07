@@ -13,10 +13,10 @@ document.head.insertAdjacentHTML("beforeend", `<style>
 
 var videoContent = 
 '<video id="home-video" class="home-video" playsinline autoplay muted poster="/images/bg_home--lrg@2x.jpg">'+
-  '<source src="video/curiousways.webm" type="video/webm" media="screen and (min-width:401px)">'+
-  '<source src="video/curiousways.mp4" type="video/mp4" media="screen and (min-width:401px)">'+
-  '<source src="video/curiousways_small.webm" type="video/webm" media="screen and (max-width:400px)">'+
-  '<source src="video/curiousways_small.mp4" type="video/mp4" media="screen and (max-width:400px)">'+
+  '<source src="video/curiousways.webm" type="video/webm" media="screen and (min-width:601px)">'+
+  '<source src="video/curiousways.mp4" type="video/mp4" media="screen and (min-width:601px)">'+
+  '<source src="video/curiousways_small.webm" type="video/webm" media="screen and (max-width:600px)">'+
+  '<source src="video/curiousways_small.mp4" type="video/mp4" media="screen and (max-width:600px)">'+
 '</video>';
 
 document.getElementById("home-video-wrapper").innerHTML = videoContent;
