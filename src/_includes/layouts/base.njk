@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="We are creative partners who help all kinds of organisations to think straight, look good and be successful">
     <title>{{ title }}</title>
 
     <style>{% include "css/critical.css" %}</style>
@@ -17,7 +18,7 @@
     {% endif %}
 
     <link rel="stylesheet" media="print" href="/fonts/fonts.css?{{ assetHash }}" onload="this.media='all'" />
-    
+
     {# Add facility for pages to declare an array of stylesheet paths #}
     {% if pageStylesheets %}
       {% for item in pageStylesheets %}
@@ -26,9 +27,9 @@
     {% endif %}
 
   </head>
-  <body {% if pageBG %}class="{{ pageBG }}"{% endif %}>
+  <body {% if pageID %}id="{{ pageID }}"{% endif %} {% if bodyClass %}class="{{ bodyClass }}"{% endif %}>
 
-    <div class="site-wrap">
+    <div id="site" class="site-wrap">
 
       {% include "partials/site-head.njk" %}
     
@@ -39,6 +40,10 @@
     </div>
 
     {% include "partials/site-footer.njk" %}
+
+    {% if pageScript %}
+      <script type="text/javascript" src="{{ pageScript }}"></script>
+    {% endif %}
 
   </body>
 </html>

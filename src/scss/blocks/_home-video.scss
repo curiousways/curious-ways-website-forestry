@@ -1,0 +1,19 @@
+.page-home.home-video--load {
+  background-size: 0 0;
+
+  .site-head,
+  .home,
+  .site-foot {
+    opacity: 0;
+  }
+}
+
+.page-home--finished {
+  background-size: cover;
+
+  .site-head,
+  .home,
+  .site-foot {
+    opacity: 1;
+  }  
+}

@@ -1,31 +1,21 @@
 {% extends "layouts/base.njk" %} 
 {% set pageCriticalStyles = ['css/home.css'] %}
-{% set pageBG = 'bg bg--home' %}
+{% set bodyClass = 'page-home bg bg--home home-video--load' %}
+{% set pageID = 'page-home' %}
+{% set pageScript = '/js/home-video.js' %}
 
 {% block content %}
 
-<video class="home-video" playsinline autoplay muted poster="polina.jpg" id="home-video">
-  {# <source src="polina.webm" type="video/webm"> #}
-  <source src="video/curiousways.mp4" type="video/mp4">
-</video>
-
-<script type='text/javascript'>
-	var loadingVideo = document.getElementById("home-video");
-
-  loadingVideo.addEventListener('ended', function(e) {
-  	// console.log('video ends');
-		loadingVideo.classList.add("home-video--finished");
-		// loadingVideo.remove();
-  })
-</script>
+<div id="home-video-wrapper"></div>
 
 <div class="wrapper">
 	<article class="home">
-		<div class="[ home__content ] [ flow has-special-links ] [ line-break--xl ]">
-			<h1 class="home__title font-header-reg">{{ home.title | safe  }}</h1>
-			<h2 class="home__subtitle font-header-reg">{{ home.subtitle  | safe }}</h2>
-			<p class="home__cta font-header-reg">{{ home.cta  | safe }}</p>
+		<div class="[ home__content ] [ flow ] [ has-special-links line-break--xl ]">
+			<h1 class="home__title font-header-light">{{ home.title | safe  }}</h1>
+			<h2 class="home__subtitle font-header-light">{{ home.subtitle  | safe }}</h2>
+			<p class="home__cta font-header-light">{{ home.cta  | safe }}</p>
 		</div>
 	</article>
 </div>
-{% endblock %}	
+
+{% endblock %}

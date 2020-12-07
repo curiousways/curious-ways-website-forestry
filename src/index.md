@@ -2,7 +2,7 @@
 title: 'Curious Ways'
 layout: 'layouts/home.njk'
 home:
-  title: 'We are creative partners who help all kinds of<br /> organisations to think straight, look good<br /> and be successful.'
-  subtitle: 'We offer a full range of creative services, <br />we work hard and we’re nice to people. '
-  cta: 'Take a look at <a href="#">some of our work</a>; find out<br /> who we are; then get in touch and tell us<br /> what you want to achieve.'
+  title: 'We’re Curious Ways. We build brands, websites and campaigns for interesting and ambitious businesses of all sizes.'
+  subtitle: 'We do intelligent thinking, charismatic ideas and beautiful executions. We work hard and we’re nice to people. That about sums us up.'
+  cta: '<a href="mailto:hello@curiousways.com">Get in touch</a> and tell us what you’re looking for.'
 ---

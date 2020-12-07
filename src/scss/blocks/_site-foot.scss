@@ -45,6 +45,14 @@
     &__social {
       display: flex;
       flex-wrap: wrap;
+
+      svg {
+        fill: get-color('black');
+      }
+
+      svg:hover {
+        fill: get-color('purple');
+      }
     }
   }
 }
