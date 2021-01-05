@@ -1,15 +1,13 @@
 {% extends "layouts/base.njk" %} 
 {# {% set pageCriticalStyles = ['css/contact.css'] %} #}
 {% set bodyClass = 'page-contact bg bg--contact' %}
+{% set pageHeaderTitle = title %}
+{% set pageHeaderSummary = content %}
 
 {% block content %}
 
-<div class="wrapper">
-	<article class="contact">
-		<div class="[ contact__content ] [ flow ] [ has-special-links line-break--xl ]">
-			<h1 class="contact__title font-header-reg">{{ contact.title | safe  }}</h1>
-		</div>
-	</article>
-</div>
+  <article>
+    {% include "partials/page-header.njk" %} 
+  </article>
 
 {% endblock %}
