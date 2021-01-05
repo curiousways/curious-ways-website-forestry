@@ -20,6 +20,7 @@
     position: relative;
 
     // Adds the fake border to active state items
+    &:hover, 
     &[data-state='active'],
     &[aria-current='page'] {
       &:before {

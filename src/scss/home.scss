@@ -8,8 +8,8 @@ $outputTokenCSS: false;
 @import '../../node_modules/gorko/gorko.scss';
 
 .home {
-  display: flex;
-  align-items: center;
+  display: flex; 
+  align-items: center; 
 
   @media (min-width: 600px) and (min-height: 700px) {
     // TODO change pixel value when height of footer and header is known;

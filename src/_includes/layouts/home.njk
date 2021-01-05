@@ -10,12 +10,19 @@
 
 <div class="wrapper">
 	<article class="home">
+
 		<div class="[ home__content ] [ flow ] [ has-special-links line-break--xl ]">
 			<h1 class="home__title font-header-light">{{ home.title | safe  }}</h1>
 			<h2 class="home__subtitle font-header-light">{{ home.subtitle  | safe }}</h2>
 			<p class="home__cta font-header-light">{{ home.cta  | safe }}</p>
 		</div>
+
 	</article>
+
+	{% include "partials/featured-work.njk" %}
+
+	{% include "partials/studio-feed.njk" %}
+
 </div>
 
 {% endblock %}

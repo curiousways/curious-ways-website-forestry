@@ -46,10 +46,10 @@ a:not([class]) {
   text-decoration-color: get-color('purple');
 }
 
-// :focus {
-//   outline: 2px dashed get-color('black');
-//   outline-offset: 0.25rem;
-// }
+:focus {
+  outline: 2px dashed get-color('black');
+  outline-offset: 0.25rem;
+}
 
 main:focus {
   outline: none;
@@ -81,9 +81,13 @@ h4 {
 @import 'blocks/site-head';
 @import 'blocks/nav';
 @import 'blocks/button';
+@import 'blocks/people';
+@import 'blocks/person';
 @import 'blocks/skip-link';
+@import 'blocks/page-header';
 
 // Import utilities
+@import 'utilities/auto-grid';
 @import 'utilities/backgrounds';
 @import 'utilities/flow';
 @import 'utilities/line-breaks';
