@@ -1,0 +1,7 @@
+.site-wrap {
+  overflow-x: hidden;
+  position: relative;
+  // TODO change pixel value when height of footer is known;
+  // Footer height = 101px
+  min-height: calc(100vh - 101px); // Height of the footer based on content and padding rules
+}
