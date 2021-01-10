@@ -1,0 +1,20 @@
+<div class="[ address ]" itemscope itemtype="https://schema.org/Organization">
+
+  <div class="[ address__location ]">
+    <span class="visually-hidden" itemprop="name">{{ site.name }} - {{ addressLocality }}</span>
+    <span class="[ address__title ] [ font-header-med ]">{{ addressLocality }}</span>
+    <div class="[ address__details ] [ font-header-light ]" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+      <span itemprop="streetAddress">{{ streetAddress | safe }}</span>
+      <span itemprop="addressLocality">{{ addressLocality | safe }}</span>
+      {% if addressRegion %}
+        <span itemprop="addressRegion">{{ addressRegion | safe }}</span>
+      {% endif %}
+      <span itemprop="postalCode">{{ postalCode | safe }}</span>
+    </div>
+  </div>  
+
+  <div class="[ address__telephone ]">
+    <span class="[ font-header-light ]" itemprop="telephone">{{ telephone }}</span>
+  </div>
+
+</div>

@@ -1,0 +1,28 @@
+<article class="[ contacts ] [ panel ]">
+  <div class="wrapper">
+    <div class="[ contacts__inner ]">
+
+      <ul class="[ contacts__list ] [ flow flow-space-600 ] [ font-header-med ]">
+        {% include "partials/contacts__list.njk" %} 
+      </ul>
+
+      <div class="[ contacts__locations ]">
+
+        {% set streetAddress = "71-75 Shelton Street" %}
+        {% set addressLocality = "London" %}
+        {% set postalCode = "WC2H 9JQ" %}
+        {% set telephone = "+44 (0) 7740 476400" %}
+        {% include "partials/contacts__address.njk" %} 
+
+        {% set streetAddress = "B19, Forward Space" %}
+        {% set addressLocality = "Frome" %}
+        {% set addressRegion = "Somerset" %}
+        {% set postalCode = "BA11 1HR" %}
+        {% set telephone = "+44 (0) 7890 513210" %}
+        {% include "partials/contacts__address.njk" %}
+
+      </div>
+
+    </div>
+  </div>
+</article>

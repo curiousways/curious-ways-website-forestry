@@ -9,23 +9,23 @@
 // MQ Testing 
 // TODO remove when finished
 
-// body {
-//   @include media-query('sm') {
-//     border: 10px solid cyan;
-//   }
-//   
-//   @include media-query('md') {
-//     border: 10px solid magenta;
-//   }
-//   
-//   @include media-query('lg') {
-//     border: 10px solid yellow;
-//   }
-//   
-//   @include media-query('xl') {
-//     border: 10px solid black;
-//   }
-// }
+body {
+  @include media-query('sm') {
+    border: 10px solid cyan;
+  }
+  
+  @include media-query('md') {
+    border: 10px solid magenta;
+  }
+  
+  @include media-query('lg') {
+    border: 10px solid yellow;
+  }
+  
+  @include media-query('xl') {
+    border: 10px solid black;
+  }
+}
 
 // Global styles start
 :root {
@@ -60,6 +60,7 @@ h2,
 h3,
 h4 {
   font-weight: normal;
+  font-style: normal;
 
   @include apply-utility('font', 'header-med');
   @include apply-utility('leading', 'tight');
@@ -76,20 +77,22 @@ h4 {
 }
 
 // Import blocks
+@import 'blocks/button';
+@import 'blocks/cta';
+@import 'blocks/nav';
+@import 'blocks/page-header';
+@import 'blocks/people';
+@import 'blocks/person';
 @import 'blocks/site-main';
 @import 'blocks/site-foot';
 @import 'blocks/site-head';
-@import 'blocks/nav';
-@import 'blocks/button';
-@import 'blocks/people';
-@import 'blocks/person';
 @import 'blocks/skip-link';
-@import 'blocks/page-header';
 
 // Import utilities
 @import 'utilities/auto-grid';
 @import 'utilities/backgrounds';
 @import 'utilities/flow';
+@import 'utilities/headline';
 @import 'utilities/line-breaks';
 @import 'utilities/panel';
 @import 'utilities/radius';

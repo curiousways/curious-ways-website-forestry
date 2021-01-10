@@ -8,13 +8,16 @@
   <article>
     {% include "partials/page-header.njk" %} 
     {% if peopleItems %} 
-      <div class="[ no-js-hidden ] [ panel dot-shadow ] [ bg-light-glare ]">
+      <div class="[ no-js-hidden ] [ panel ]">
         <div class="[ wrapper ] [ flow flow-space-700 ]">
-          <h2 class="[ headline ] [ measure-micro color-quinary ]" data-highlight="dark">Meet the team</h2>
           {% include "partials/people.njk" %}
         </div>
       </div>
     {% endif %}
+
+    {% include "partials/cta.njk" %}
+
+
   </article>
 
 {% endblock %}
