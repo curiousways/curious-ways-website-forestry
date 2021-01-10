@@ -1,0 +1,15 @@
+.cta {
+  @include media-query('md') {
+    &__inner {
+    }
+
+    &__heading {
+    }
+
+    &__summary {
+    }
+
+    &__action {
+    }
+  }
+}

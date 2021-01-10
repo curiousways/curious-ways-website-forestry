@@ -1,23 +1,34 @@
+// Adding weights to @font-face
+// That's saying “if you're weight:700, use this font instead"
+// So if I have strong { font-weight: 700}, it'll match up to the strong custom font
+
 @font-face {
   font-family: "Aribau Grotesk";
   src: url("AribauGrotesk.woff2") format("woff2"),
        url("AribauGrotesk.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Blacker Pro Med";
   src: url("BlackerProMed.woff2") format("woff2"),
        url("BlackerProMed.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
 }
 
 @font-face {
   font-family: "Blacker Pro Reg";
   src: url("BlackerProReg.woff2") format("woff2"),
        url("BlackerProReg.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
 }
 
 @font-face {
   font-family: "Blacker Pro Light";
   src: url("BlackerProLight.woff2") format("woff2"),
        url("BlackerProLight.woff") format("woff");
+  font-display: swap;
+  font-weight: 100;
 }

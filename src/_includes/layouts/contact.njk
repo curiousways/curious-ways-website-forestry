@@ -1,13 +1,12 @@
 {% extends "layouts/base.njk" %} 
-{# {% set pageCriticalStyles = ['css/contact.css'] %} #}
-{% set bodyClass = 'page-contact bg bg--contact' %}
-{% set pageHeaderTitle = title %}
-{% set pageHeaderSummary = content %}
+{% set pageCriticalStyles = ['css/contact.css'] %}
+{% set pageHeaderTitle = title %} 
+{% set pageHeaderSummary = content %} 
 
 {% block content %}
-
   <article>
     {% include "partials/page-header.njk" %} 
+    {% include "partials/contacts.njk" %} 
   </article>
 
 {% endblock %}
