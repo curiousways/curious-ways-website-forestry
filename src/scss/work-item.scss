@@ -8,9 +8,42 @@ $outputTokenCSS: false;
 @import '../../node_modules/gorko/gorko.scss';
 
 // Pull in blocks
-// @import 'blocks/hero';
+@import 'blocks/hero';
 // @import 'blocks/key-facts';
 
 .work-item {
-  background:  blue;
+  background: green;
 }
+
+.work-description {
+  background: pink;
+  display: flex;
+
+
+  &__services {
+    display: flex;
+    background: orange;
+    flex: 1 1 0;
+
+    ul {
+   margin: 0;
+padding: 0;
+list-style: none; 
+    }
+  }
+
+  &__quote {
+    background: yellow;
+    flex: 1 1 0;
+  }
+
+  &__company {
+    background: dodgerblue;
+    display: flex;
+
+    > div {
+      flex: 1 1 0;
+    }
+  }
+}
+
