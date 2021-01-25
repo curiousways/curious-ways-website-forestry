@@ -1,8 +1,16 @@
 {% extends "layouts/base.njk" %}  
 {% set pageCriticalStyles = ['css/work-item.css'] %}
+{% set pageHeaderTitle = title %} 
 
 {% block content %}
+
 <section class="work-item">
+
+  {% include "partials/page-header.njk" %}
+
+  {% include "partials/work-details.njk" %}
+  
+
   <header class="hero">
     <div class="[ hero__inner ] [ wrapper ]">
       <div class="[ hero__content ] [ dot-shadow radius flow ] [ bg-dark-shade color-light flow-space-400 ]">
