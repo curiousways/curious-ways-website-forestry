@@ -13,6 +13,7 @@ $outputTokenCSS: false;
 
 .work-item {
   background: green;
+  margin-bottom: get-size("major");
 }
 
 .work-details {
