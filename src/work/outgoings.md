@@ -1,35 +1,25 @@
 ---
-title: 'Outgoings iOS App'
-summary: 'A native iOS app to help people to keep a track of their finances by providing easy-to use tracking and organising capabilities.'
+title: "Outgoings iOS App"
+summary: "A native iOS app to help people to keep a track of their finances by providing easy-to use tracking and organising capabilities."
 displayOrder: 1
-featured: true
-hero:
-  image: '/images/work/outgoings-hero.jpg'
-  imageAlt: 'Screens from the app, composed together as a group.'
-keyFacts:
-  - primary: '50%'
-    secondary: 'Increase in engagement'
-  - primary: '10%'
-    secondary: 'Increase in sales'
-  - primary: '£1,000,000'
-    secondary: 'In extra revenue'
-  - primary: '750 hours'
-    secondary: 'In saved productivity'
-  - primary: '4'
-    secondary: 'International awards'
-  - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
+servicesList:
+  - service: "Art Direction"
+  - service: "Branding"
+  - service: "Brand Strategy"
+  - service: "Illustration"
+  - service: "Print Design"
+  - service: "Social Media"
+  - service: "Website Build"
+  - service: "Website Design"
 gallery:
-  - title: 'Multi-account support'
-    summary: 'We wanted the app to be as useful as possible, so
-    multi-account support was a natural choice.'
-    image: '/images/work/outgoings-gallery-1.jpg'
-  - title: 'Concise summaries'
-    summary: 'The numbers speak volumes, so we give them center stage.'
-    image: '/images/work/outgoings-gallery-2.jpg'
-  - title: 'Crystal clear information for users'
-    summary: 'No distractions, no anti-patterns, just clear,
-    user-friendly information'
-    image: '/images/placeholders/work-item.jpg'
-team: [1, 4, 6]
+  - title: "Multi-account support"
+    image: "/images/work/outgoings-gallery-1.jpg"
+    style: "work-gallery__item--half"
+  - title: "Concise summaries"
+    image: "/images/work/outgoings-gallery-2.jpg"
+  - title: "Crystal clear information for users"
+    image: "/images/work/outgoings-gallery-2.jpg"
+    style: "work-gallery__item--double"
+    imageSecond: "/images/work/outgoings-gallery-2.jpg"
+    titleSecond: "Second Title"
 ---

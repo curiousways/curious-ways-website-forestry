@@ -1,0 +1,19 @@
+<article class="[ work-gallery ] [ flow flow-space-800 ]">
+  {% for item in gallery %}
+    <figure class="[ {% if item.style %}{{ item.style }}{% else %}work-gallery__item{% endif %} ]">
+
+      {% set imageURL = item.image %}
+      {% set imageAlt = item.imageAlt %}
+      {% set imageTitle = item.title %}
+      {% include "partials/work-gallery__img.njk" %}
+
+      {% if item.imageSecond %}
+        {% set imageURL = item.imageSecond %}
+        {% set imageAlt = item.imageSecondAlt %}
+        {% set imageTitle = item.titleSecond %}
+        {% include "partials/work-gallery__img.njk" %}
+      {% endif %}
+
+    </figure>
+  {% endfor %}
+</article>
