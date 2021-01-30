@@ -1,24 +1,28 @@
 // First up: config and functions
-@import 'config';
+@import "config";
 
 // Set Gorko to output no CSS for this file
 $outputTokenCSS: false;
 
 // Next: pull in Gorko for design tokens
-@import '../../node_modules/gorko/gorko.scss';
+@import "../../node_modules/gorko/gorko.scss";
 
 // Pull in blocks
-@import 'blocks/hero';
+@import "blocks/hero";
 // @import 'blocks/key-facts';
 
 .work-item {
   background: green;
 }
 
+.work-details {
+  margin-bottom: get-size("major");
+}
+
 .work-description {
   background: pink;
   display: flex;
-
+  position: relative;
 
   &__services {
     display: flex;
@@ -26,24 +30,90 @@ $outputTokenCSS: false;
     flex: 1 1 0;
 
     ul {
-   margin: 0;
-padding: 0;
-list-style: none; 
+      @include media-query("lg") {
+        margin: 0 get-size("800");
+      }
+
+      column-count: 2;
+      background: lightcoral;
+      font-size: get-size("300");
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: block;
+        line-height: 1.5;
+        padding-right: 2rem;
+      }
     }
   }
 
   &__quote {
     background: yellow;
     flex: 1 1 0;
+
+    &:before {
+      @include apply-utility("font", "header-med");
+      content: "\201C";
+      color: get-color("purple");
+      font-size: 50px;
+      position: absolute;
+      left: -2rem;
+      top: -0.5rem;
+      line-height: 1;
+    }
   }
 
   &__company {
     background: dodgerblue;
     display: flex;
+    margin-top: 2rem;
 
     > div {
       flex: 1 1 0;
     }
   }
+
+  &__website {
+    background: palegoldenrod;
+    @include media-query("lg") {
+      margin-left: get-size("800");
+    }
+  }
 }
 
+.work-gallery {
+  background: slateblue;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75rem;
+
+  &__item {
+    &--half {
+      max-width: 38rem;
+      align-self: flex-end;
+    }
+
+    &--double {
+      --gap: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      margin-left: calc(var(--gap) * -1);
+      margin-right: calc(var(--gap) * -1);
+
+      .work-gallery__media {
+        margin: 0 var(--gap);
+      }
+
+      .work-gallery__content {
+        margin-left: var(--gap);
+      }
+    }
+  }
+
+  &__content {
+    margin-top: get-size("300");
+  }
+}
