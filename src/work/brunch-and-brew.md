@@ -5,7 +5,7 @@ intergenerational volunteering.'
 displayOrder: 3
 featured: true 
 hero:
-  image: '/images/work/brunch-and-brew-hero.jpg'
+  image: '/images/work/preview-regenerative-pathways.jpg'
   imageAlt: 'A composition of the main landing screen and other key
   views'
 keyFacts:

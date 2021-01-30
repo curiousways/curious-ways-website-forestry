@@ -1,6 +1,9 @@
 ---
 title: "Outgoings iOS App"
 summary: "A native iOS app to help people to keep a track of their finances by providing easy-to use tracking and organising capabilities."
+hero:
+  image: "/images/work/preview-regenerative-pathways.jpg"
+  imageAlt: "A composition of the main landing screen and other key views"
 displayOrder: 1
 servicesList:
   - service: "Art Direction"

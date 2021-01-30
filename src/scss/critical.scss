@@ -46,10 +46,10 @@ a:not([class]) {
   text-decoration-color: get-color("purple");
 }
 
-:focus {
-  outline: 2px dashed get-color("black");
-  outline-offset: 0.25rem;
-}
+// :focus {
+//   outline: 2px dashed get-color("black");
+//   outline-offset: 0.25rem;
+// }
 
 main:focus {
   outline: none;

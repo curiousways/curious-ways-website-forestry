@@ -5,7 +5,7 @@ Glasgow.'
 displayOrder: 4
 featured: false
 hero:
-  image: '/images/work/breakfast-club-hero.jpg'
+  image: '/images/work/preview-regenerative-pathways.jpg'
   imageAlt: 'The breakfast club hero image'
 keyFacts:
   - primary: '50%'

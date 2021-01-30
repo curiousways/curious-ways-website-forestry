@@ -1,0 +1,28 @@
+// First up: config and functions
+@import "config";
+
+// Set Gorko to output no CSS for this file
+$outputTokenCSS: false;
+
+// Next: pull in Gorko for design tokens
+@import "../../node_modules/gorko/gorko.scss";
+
+// Pull in blocks
+//@import "blocks/work-details";
+
+.work-listing {
+  background: palevioletred;
+
+  display: grid;
+  grid-gap: var(--auto-grid-gap, get-size("900"))
+    var(--auto-grid-gap, get-size("500"));
+  grid-template-columns: 1fr;
+
+  @include media-query("md") {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__summary {
+    margin-bottom: get-size("500");
+  }
+}
