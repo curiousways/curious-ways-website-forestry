@@ -4,7 +4,7 @@ summary: 'A travel website to help make booking easier.'
 displayOrder: 5
 featured: false
 hero:
-  image: '/images/work/travel-today-hero.jpg'
+  image: '/images/work/preview-regenerative-pathways.jpg'
   imageAlt: 'The travel today hero image'
 keyFacts:
   - primary: '50%'

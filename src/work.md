@@ -1,7 +1,6 @@
 ---
-title: "Our finest work"
+title: "Our work"
 layout: "layouts/work-landing.njk"
 ---
 
-Some of our finest work from websites right through to printed
-branding that shows our range and diversity of talent in the agency.
+This is a paragraph that outlines the kind of work that we do and the kind of clients we do it for.

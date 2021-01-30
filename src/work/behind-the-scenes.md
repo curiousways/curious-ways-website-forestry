@@ -5,7 +5,7 @@ beautiful places on earth.'
 displayOrder: 2
 featured: true
 hero:
-  image: '/images/work/behind-the-scenes-hero.jpg'
+  image: '/images/work/preview-regenerative-pathways.jpg'
   imageAlt: 'A composition of all the views from the app'
 keyFacts:
   - primary: '50%'
