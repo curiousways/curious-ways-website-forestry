@@ -1,0 +1,70 @@
+.work-description {
+  background: pink;
+  display: flex;
+  position: relative;
+
+  &__services {
+    display: flex;
+    background: orange;
+    flex: 1 1 0;
+
+    ul {
+      @include media-query("lg") {
+        margin: 0 get-size("800");
+      }
+
+      column-count: 2;
+      background: lightcoral;
+      font-size: get-size("300");
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: block;
+        line-height: 1.5;
+        padding-right: 2rem;
+      }
+    }
+  }
+
+  &__quote {
+    background: yellow;
+    flex: 1 1 0;
+
+    &:before {
+      @include apply-utility("font", "header-med");
+      content: "\201C";
+      color: get-color("purple");
+      font-size: 50px;
+      position: absolute;
+      left: -2rem;
+      top: -0.5rem;
+      line-height: 1;
+    }
+  }
+
+  &__company {
+    background: dodgerblue;
+    display: flex;
+    margin-top: 2rem;
+
+    > div {
+      flex: 1 1 0;
+    }
+  }
+
+  &__website {
+    background: palegoldenrod;
+
+    a:link,
+    a:visited {
+      @include media-query("lg") {
+        margin-left: get-size("800");
+      }
+      @include apply-utility("font", "header-med");
+      text-decoration: none;
+    }
+    color: get-color("purple");
+    display: block;
+  }
+}

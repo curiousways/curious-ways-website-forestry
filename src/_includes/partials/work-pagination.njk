@@ -1,0 +1,22 @@
+<div class="[ panel ]">
+  <div class="[ work-pagination ] [ wrapper ]">
+
+    <div class="work-pagination__items">
+
+      {% for item in paginationPrev %}
+        <div>
+          <small>Previous Project</small>
+          <a href="{{ item.prevLink }}">{{ item.prevTitle }}</a>
+        </div>
+      {% endfor %}
+
+      {% for item in paginationNext %}
+        <div class="text-right">
+          <small>Next Project</small>
+          <a href="{{ item.nextLink }}">{{ item.nextTitle }}</a>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
