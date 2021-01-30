@@ -1,53 +1,53 @@
 // First up: config and functions
-@import 'config';
+@import "config";
 
 // Next: pull in gorko for design tokens
-@import '../../node_modules/gorko/gorko.scss';
+@import "../../node_modules/gorko/gorko.scss";
 
-@import 'reset';
+@import "reset";
 
-// MQ Testing 
+// MQ Testing
 // TODO remove when finished
 
 body {
-  @include media-query('sm') {
+  @include media-query("sm") {
     border: 10px solid cyan;
   }
-  
-  @include media-query('md') {
+
+  @include media-query("md") {
     border: 10px solid magenta;
   }
-  
-  @include media-query('lg') {
+
+  @include media-query("lg") {
     border: 10px solid yellow;
   }
-  
-  @include media-query('xl') {
+
+  @include media-query("xl") {
     border: 10px solid black;
   }
 }
 
 // Global styles start
 :root {
-  --flow-space: #{get-size('600')};
+  --flow-space: #{get-size("600")};
 }
 
 body {
-  background: get-color('cream');
-  color: get-color('black');
+  background: get-color("cream");
+  color: get-color("black");
   line-height: 1.3;
-  font-size: get-size('400');
+  font-size: get-size("400");
 
-  @include apply-utility('font', 'base');
+  @include apply-utility("font", "base");
 }
 
 a:not([class]) {
   color: currentColor;
-  text-decoration-color: get-color('purple');
+  text-decoration-color: get-color("purple");
 }
 
 :focus {
-  outline: 2px dashed get-color('black');
+  outline: 2px dashed get-color("black");
   outline-offset: 0.25rem;
 }
 
@@ -62,8 +62,8 @@ h4 {
   font-weight: normal;
   font-style: normal;
 
-  @include apply-utility('font', 'header-med');
-  @include apply-utility('leading', 'tight');
+  @include apply-utility("font", "header-med");
+  @include apply-utility("leading", "tight");
 }
 
 // High contrast selection because it can help visually-impaired
@@ -73,30 +73,31 @@ h4 {
 
   // We set this as an RGBA because that’s how you get a solid color, by using 0.99
   // alpha value. Browsers are wild.
-  background: rgba(get-color('purple'), 0.99);
+  background: rgba(get-color("purple"), 0.99);
 }
 
 // Import blocks
-@import 'blocks/button';
-@import 'blocks/cta';
-@import 'blocks/nav';
-@import 'blocks/page-header';
-@import 'blocks/people';
-@import 'blocks/person';
-@import 'blocks/site-main';
-@import 'blocks/site-foot';
-@import 'blocks/site-head';
-@import 'blocks/skip-link';
+@import "blocks/button";
+@import "blocks/cta";
+@import "blocks/nav";
+@import "blocks/page-header";
+@import "blocks/people";
+@import "blocks/person";
+@import "blocks/site-main";
+@import "blocks/site-foot";
+@import "blocks/site-head";
+@import "blocks/skip-link";
 
 // Import utilities
-@import 'utilities/auto-grid';
-@import 'utilities/backgrounds';
-@import 'utilities/flow';
-@import 'utilities/headline';
-@import 'utilities/line-breaks';
-@import 'utilities/panel';
-@import 'utilities/radius';
-@import 'utilities/site-wrap';
-@import 'utilities/text-links';
-@import 'utilities/visually-hidden';
-@import 'utilities/wrapper';
+@import "utilities/auto-grid";
+@import "utilities/backgrounds";
+@import "utilities/flow";
+@import "utilities/headline";
+@import "utilities/line-breaks";
+@import "utilities/panel";
+@import "utilities/radius";
+@import "utilities/site-wrap";
+@import "utilities/text-links";
+@import "utilities/text-align";
+@import "utilities/visually-hidden";
+@import "utilities/wrapper";

@@ -22,4 +22,10 @@ gallery:
     style: "work-gallery__item--double"
     imageSecond: "/images/work/outgoings-gallery-2.jpg"
     titleSecond: "Second Title"
+paginationPrev:
+  - prevLink: "/yo/"
+    prevTitle: "Prev Titl"
+paginationNext:
+  - nextLink: "/sssyo/"
+    nextTitle: "Nexcrt Titl"
 ---
