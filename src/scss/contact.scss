@@ -1,21 +1,18 @@
 // First up: config and functions
-@import 'config';
+@import "config";
 
 // Set Gorko to output no CSS for this file
 $outputTokenCSS: false;
 
 // Next: pull in gorko for design tokens
-@import '../../node_modules/gorko/gorko.scss';
+@import "../../node_modules/gorko/gorko.scss";
 
 // Pull in blocks
-@import 'blocks/address';
+@import "blocks/address";
 
 .contacts {
-  background: green;
-
   &__list {
-    background: blue;
-    font-size: get-size('600');
+    font-size: get-size("600");
 
     a {
       text-decoration: none;
@@ -25,14 +22,13 @@ $outputTokenCSS: false;
   &__locations {
     display: flex;
     flex-direction: column;
-    background: red;
-    margin-top: get-size('800');
+    margin-top: get-size("800");
 
     > * + * {
-      margin-top: get-size('600');
+      margin-top: get-size("600");
     }
 
-    @include media-query('md') {
+    @include media-query("md") {
       flex-direction: row;
       max-width: 50ch;
 
@@ -42,16 +38,15 @@ $outputTokenCSS: false;
 
       > * {
         flex: 1 0 auto;
-        background: cyan;
       }
     }
 
-    @include media-query('lg') {
+    @include media-query("lg") {
       flex-direction: column;
       max-width: 70ch;
 
       > * + * {
-        margin-top: get-size('600');
+        margin-top: get-size("600");
       }
     }
   }
