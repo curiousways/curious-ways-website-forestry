@@ -33,12 +33,42 @@ body {
   --link-trans: all 0.6s ease-out;
 }
 
+@font-face {
+  font-family: "Aribau Grotesk";
+  src: url("/fonts/AribauGrotesk.woff2") format("woff2"),
+    url("/fonts/AribauGrotesk.woff") format("woff");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Blacker Pro Med";
+  src: url("/fonts/BlackerProMed.woff2") format("woff2"),
+    url("/fonts/BlackerProMed.woff") format("woff");
+  font-display: block;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Blacker Pro Reg";
+  src: url("/fonts/BlackerProReg.woff2") format("woff2"),
+    url("/fonts/BlackerProReg.woff") format("woff");
+  font-display: block;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Blacker Pro Light";
+  src: url("/fonts/BlackerProLight.woff2") format("woff2"),
+    url("/fonts/BlackerProLight.woff") format("woff");
+  font-display: block;
+  font-weight: 100;
+}
+
 body {
   background: get-color("cream");
   color: get-color("black");
   line-height: 1.3;
   font-size: get-size("400");
-
   @include apply-utility("font", "base");
 }
 

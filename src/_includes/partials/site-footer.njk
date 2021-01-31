@@ -5,7 +5,9 @@
     <div class="[ site-foot__inner ] [ text-300 font-header-reg ]">
 
       <ul class="[ site-foot__inner__contacts ]">
-        {% include "partials/contacts__list.njk" %} 
+        <li><a href="mailto:{{ site.email }}">Email us</a></li>
+        <li><a href="tel:{{ site.phone }}">Call us</a></li>
+        <li><a href="{{ site.calendy }}">Book a meeting</a></li>
       </ul>
 
       <p class="site-foot__inner__location">Based in Frome and London</p>

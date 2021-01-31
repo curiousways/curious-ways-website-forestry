@@ -1,7 +1,5 @@
 .text-link {
   position: relative;
-  @include apply-utility("font", "header-med");
-  font-style: italic;
   color: get-color("black");
   text-decoration: none;
   // overflow: hidden;

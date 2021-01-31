@@ -1,22 +1,25 @@
 {% extends "layouts/base.njk" %} 
 {% set pageCriticalStyles = ['css/home.css'] %}
-{% set bodyClass = 'page-home bg bg--home home-video--load' %}
+{# {% set bodyClass = 'page-home bg bg--home home-video--load' %} #}
 {% set pageID = 'page-home' %}
-{% set pageScript = '/js/home-video.js' %}
+{# {% set pageScript = '/js/home-video.js' %} #}
 
 {% block content %}
 
-<div id="home-video-wrapper"></div>
+{# <div id="home-video-wrapper"></div> #}
 
 <div class="wrapper">
 
 	<article class="home">
 
 		<div class="[ home__content ] [ flow ] [ line-break--xl ]">
-			<h1 class="home__title font-header-light">{{ home.title | safe  }}</h1>
-			<h2 class="home__subtitle font-header-light">{{ home.subtitle  | safe }}</h2>
+			<h1 class="home__title font-header-light weight-light">{{ home.title | safe  }}</h1>
+			<h2 class="home__subtitle font-header-light weight-light">{{ home.subtitle  | safe }}</h2>
 			<p class="home__cta font-header-light">
-				<a class="home__cta font-header-light text-link" href=""><span data-content="Get in touch" aria-hidden="true"></span>Get in touch</a>
+        {% set linkURL= "/contact" %}
+        {% set linkText = "Get in touch" %}
+        {% set linkStyle = "font-header-med style-italic" %}
+        {% include "partials/link.njk" %}
 			  and tell us what you’re looking for.
 			</p>
 		</div>
