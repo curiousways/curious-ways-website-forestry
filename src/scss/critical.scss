@@ -30,6 +30,7 @@ body {
 // Global styles start
 :root {
   --flow-space: #{get-size("600")};
+  --link-trans: all 0.6s ease-out;
 }
 
 body {

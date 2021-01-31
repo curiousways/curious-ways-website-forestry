@@ -1,18 +1,18 @@
 .site-foot {
-  padding: get-size('700') 0;
+  padding: get-size("700") 0;
   background-color: orange;
 
   a {
-    transition: all 0.6s ease-out;
+    transition: var(--link-trans);
     text-decoration: none;
   }
 
   a:hover {
-    color: get-color('purple');
+    color: get-color("purple");
   }
 
   &__inner {
-    @include media-query('md') {
+    @include media-query("md") {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -20,21 +20,21 @@
     }
 
     &__location {
-      margin:  get-size('500') 0;
-      
-      @include media-query('md') {
-        margin: 0 0 0 get-size('500');
+      margin: get-size("500") 0;
+
+      @include media-query("md") {
+        margin: 0 0 0 get-size("500");
       }
     }
 
     &__contacts {
       > * + * {
-        margin-top: get-size('300');
+        margin-top: get-size("300");
       }
 
-      @include media-query('tiny') {
+      @include media-query("tiny") {
         > * + * {
-          margin-left: var(--flow-space, get-size('600'));
+          margin-left: var(--flow-space, get-size("600"));
           margin-top: 0;
         }
 
@@ -47,12 +47,17 @@
       display: flex;
       flex-wrap: wrap;
 
+      > * + * {
+        margin-left: get-size("300");
+      }
+
       svg {
-        fill: get-color('black');
+        transition: var(--link-trans);
+        fill: get-color("black");
       }
 
       svg:hover {
-        fill: get-color('purple');
+        fill: get-color("purple");
       }
     }
   }
