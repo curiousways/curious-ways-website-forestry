@@ -1,12 +1,65 @@
 {% extends "layouts/base.njk" %} 
-{% set pageCriticalStyles = ['css/work-listing.css'] %}
+{% set pageCriticalStyles = ['css/work.css'] %}
 {% set pageHeaderTitle = title %} 
 {% set pageHeaderSummary = content %} 
 
 {% block content %}
+
   <article>
     {% include "partials/page-header.njk" %}
   </article>
+
+  <article class="[ work-featured ]">
+
+
+        <div class="[ wrapper ]">
+          <h2
+            class="[ work-featured__heading ] [ lg:measure-micro ]"
+          >
+            {{ featuredWork.title }}
+          </h2>
+        </div>
+
+        {% for item in collections.featuredWork %}
+
+          <div class="[ wrapper ]">
+            <a
+              href="{{ item.url }}"
+              aria-label="See {{ item.data.title }}"
+              class="[ featured-work__item ]"
+            >
+              <img
+                src="{{ item.data.heroFeatured.image }}"
+                alt="{{ item.data.heroFeatured.imageAlt }}"
+                loading="lazy"
+              />
+  
+            </a>
+          </div>
+
+          {% set pageHeaderTitle = item.data.workTitle %} 
+          {% set pageHeaderSummary = "" %} 
+          {% set workDetailsSummary = item.data.workSummary %}
+          {% set workDetailsCo = item.data.companyName %}
+          {% set workDetailsURL = item.data.companyURL %}
+          {% set workDetailsSite = item.data.companySite %}
+          {% set workServices = item.data.servicesList %}
+          {% include "partials/work-details.njk" %}
+
+          <div class="[ wrapper ]">
+            <div class="work-featured__button">
+              {% set btnURL= item.url %}
+              {% set btnText= "View project" %}
+              {% include "partials/button.njk" %}
+            </div>
+          </div>
+
+        {% endfor %}
+
+
+  </article>
+
+
   <div class="[ panel ]">
     <div class="wrapper">
       <article class="[ work-listing ]">
@@ -17,15 +70,16 @@
               <img
                 src="{{ item.data.hero.image }}"
                 alt="{{ item.data.hero.imageAlt }}"
+                loading="lazy"
               />
             </a>
           </div>
           <figcaption class="[ work-listing__content ] [ flow ]">
             <h2 class="[ work-listing__heading text-500 ]">
-              {{ item.data.title }}
+              {{ item.data.workTitle }}
             </h2>
             <p class="[ work-listing__summary ] [ measure-short ]">
-              {{ item.data.summary }}
+              {{ item.data.workSummary }}
             </p>
             {% set btnURL= item.url %}
             {% set btnText= "View project" %}

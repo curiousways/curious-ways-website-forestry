@@ -1,25 +1,23 @@
 ---
-title: 'Behind the scenes'
-summary: 'A travel journal that transports you to some of the most
-beautiful places on earth.'
+workTitle: 'Behind the scenes'
+workSummary: 'A travel journal that transports you to some of the most beautiful places on earth.'
 displayOrder: 2
 featured: true
+heroFeatured:
+  image: "/images/work/preview-regenerative-pathways.jpg"
+  imageAlt: "A composition of the main landing screen and other key views"
 hero:
   image: '/images/work/preview-regenerative-pathways.jpg'
   imageAlt: 'A composition of all the views from the app'
-keyFacts:
-  - primary: '50%'
-    secondary: 'Increase in engagement'
-  - primary: '10%'
-    secondary: 'Increase in sales'
-  - primary: '£1,000,000'
-    secondary: 'In extra revenue'
-  - primary: '750 hours'
-    secondary: 'In saved productivity'
-  - primary: '4'
-    secondary: 'International awards'
-  - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
+servicesList:
+  - service: "Art Direction"
+  - service: "Branding"
+  - service: "Brand Strategy"
+  - service: "Illustration"
+  - service: "Print Design"
+  - service: "Social Media"
+  - service: "Website Build"
+  - service: "Website Design"
 gallery:
   - title: 'Creative layouts'
     summary: 'We made sure the content sang with some creative layout
@@ -34,5 +32,7 @@ gallery:
     summary: 'We made the the stunning photography sit center stage
     because let’s be honest: that’s what you all came for.'
     image: '/images/work/behind-the-scenes-gallery-3.jpg'
-team: [1, 4, 6]
+companyName: 'yo'
+companyURL: 'yo'
+companySite: 'yo'
 ---

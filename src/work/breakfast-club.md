@@ -1,37 +1,38 @@
 ---
-title: 'Breakfast Club'
-summary: 'A swanky website for a swanky new restaurant in the heart of
-Glasgow.'
-displayOrder: 4
+workTitle: 'Behind the scenes'
+workSummary: 'A travel journal that transports you to some of the most beautiful places on earth.'
+displayOrder: 2
 featured: false
+heroFeatured:
+  image: "/images/work/preview-regenerative-pathways.jpg"
+  imageAlt: "A composition of the main landing screen and other key views"
 hero:
   image: '/images/work/preview-regenerative-pathways.jpg'
-  imageAlt: 'The breakfast club hero image'
-keyFacts:
-  - primary: '50%'
-    secondary: 'Increase in engagement'
-  - primary: '10%'
-    secondary: 'Increase in sales'
-  - primary: '£1,000,000'
-    secondary: 'In extra revenue'
-  - primary: '750 hours'
-    secondary: 'In saved productivity'
-  - primary: '4'
-    secondary: 'International awards'
-  - primary: '£28,000'
-    secondary: 'Saved in digital advertising'
+  imageAlt: 'A composition of all the views from the app'
+servicesList:
+  - service: "Art Direction"
+  - service: "Branding"
+  - service: "Brand Strategy"
+  - service: "Illustration"
+  - service: "Print Design"
+  - service: "Social Media"
+  - service: "Website Build"
+  - service: "Website Design"
 gallery:
-  - title: 'Loads of space to breathe'
-    summary: 'It was important to us to make sure the food images did
-    all of the talking: not the design.'
-    image: '/images/work/breakfast-club-gallery-1.jpg'
-  - title: 'Keeping it light'
-    summary: 'We used the latest web technologies to make sure this
-    site looked good and performed well.'
-    image: '/images/work/breakfast-club-gallery-2.jpg'
-  - title: 'Modern layouts'
-    summary: 'We used layouts that for the longest time, we reserved
-    only for print.'
-    image: '/images/work/breakfast-club-gallery-3.jpg'
-team: [1, 2, 5]
+  - title: 'Creative layouts'
+    summary: 'We made sure the content sang with some creative layout
+    and typography work, while making sure the content was easy to
+    read.'
+    image: '/images/work/behind-the-scenes-gallery-1.jpg'
+  - title: 'Keeping it clear'
+    summary: 'We wanted to make sure the content was as clear as it
+    could be, regardless of what it was.'
+    image: '/images/work/behind-the-scenes-gallery-3.jpg'
+  - title: 'Beautiful photography'
+    summary: 'We made the the stunning photography sit center stage
+    because let’s be honest: that’s what you all came for.'
+    image: '/images/work/behind-the-scenes-gallery-3.jpg'
+companyName: 'yo'
+companyURL: 'yo'
+companySite: 'yo'
 ---
