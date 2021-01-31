@@ -8,11 +8,18 @@ $outputTokenCSS: false;
 @import "../../node_modules/gorko/gorko.scss";
 
 // Pull in blocks
-//@import "blocks/work-details";
+@import "blocks/work-featured";
+@import "blocks/work-details";
+@import "blocks/work-gallery";
+@import "blocks/work-pagination";
+
+.work-item {
+  background: green;
+}
 
 .work-listing {
   background: palevioletred;
-
+  margin-top: get-size("major");
   display: grid;
   grid-gap: var(--auto-grid-gap, get-size("900"))
     var(--auto-grid-gap, get-size("500"));

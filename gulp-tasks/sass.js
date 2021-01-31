@@ -13,8 +13,7 @@ const criticalStyles = [
   "critical.scss",
   "home.scss",
   "page.scss",
-  "work-item.scss",
-  "work-listing.scss",
+  "work.scss",
   "contact.scss",
 ];
 

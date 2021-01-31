@@ -1,12 +1,10 @@
 {% extends "layouts/base.njk" %}  
-{% set pageCriticalStyles = ['css/work-item.css'] %}
-{% set pageHeaderTitle = title %} 
+{% set pageCriticalStyles = ['css/work.css'] %}
+{% set workServices = servicesList %}
 
 {% block content %}
 
 <section class="work-item">
-
-  {% include "partials/page-header.njk" %}
 
   {% include "partials/work-details.njk" %}
 
