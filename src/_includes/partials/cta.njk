@@ -8,7 +8,13 @@
   <div class="wrapper">
     <div class="[ cta__inner ] [ flow ]">
       <h2 class="[ cta__heading ] [ headline ]">{{ ctaPrefix.title }}</h2>
-      <p class="[ cta__summary ] [ measure-short ] [ font-header-light ]">{{ ctaPrefix.summary }} <a class="font-header-med" href="{{ ctaPrefix.buttonUrl }}">{{ ctaPrefix.buttonText }}</a></p>
+      <p class="[ cta__summary ] [ measure-short ] [ font-header-light ]">
+        {{ ctaPrefix.summary }} 
+        {% set linkURL= ctaPrefix.buttonUrl %}
+        {% set linkText = ctaPrefix.buttonText %}
+        {% set linkStyle = "font-header-med" %}
+        {% include "partials/link.njk" %}
+      </p>
     </div>
   </div>
 </article>

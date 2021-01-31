@@ -1,7 +1,10 @@
 .work-description {
   background: pink;
-  display: flex;
   position: relative;
+
+  @include media-query("md") {
+    display: flex;
+  }
 
   &__services {
     display: flex;
@@ -31,6 +34,11 @@
     background: yellow;
     flex: 1 1 0;
 
+    p {
+      padding-right: get-size("400");
+      margin-bottom: get-size("400");
+    }
+
     &:before {
       @include apply-utility("font", "header-med");
       content: "\201C";
@@ -45,11 +53,13 @@
 
   &__company {
     background: dodgerblue;
-    display: flex;
     margin-top: 2rem;
 
-    > div {
-      flex: 1 1 0;
+    @include media-query("lg") {
+      display: flex;
+      > div {
+        flex: 1 1 0;
+      }
     }
   }
 
