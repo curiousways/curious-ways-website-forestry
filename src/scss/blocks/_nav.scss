@@ -7,6 +7,11 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
+    font-size: get-size("300");
+
+    @include media-query("sm") {
+      font-size: get-size("400");
+    }
 
     > * {
       padding-top: get-size("400");

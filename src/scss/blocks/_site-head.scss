@@ -1,5 +1,5 @@
 .site-head {
-  padding: get-size('900') 0 0;
+  padding: get-size("900") 0 0;
   position: relative;
   z-index: 1; // adjusting for intro video
 
@@ -12,15 +12,22 @@
 
   &__brand {
     flex-shrink: 0;
-    margin-inline-end: get-size('600'); // Prevents nav bunching up to the logo
+    margin-inline-end: get-size("600"); // Prevents nav bunching up to the logo
     transform: translateX(-2rem);
-    
+
     img {
       display: block;
+      height: 58px;
+      width: 245px;
+
+      @include media-query("lg") {
+        height: 73px;
+        width: 307px;
+      }
     }
   }
 
   &__nav {
-    padding: get-size('300') 0;
+    padding: get-size("300") 0;
   }
 }
