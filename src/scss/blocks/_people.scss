@@ -1,6 +1,4 @@
 .people {
-  background-color: green;
-
   &__grid {
     display: grid;
     grid-gap: var(--auto-grid-gap, get-size("900"));

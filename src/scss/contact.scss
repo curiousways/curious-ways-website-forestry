@@ -10,6 +10,33 @@ $outputTokenCSS: false;
 // Pull in blocks
 @import "blocks/address";
 
+.bg--contact {
+  // Small screens
+  background-image: url("/images/bg_contact--sm.jpg");
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("/images/bg_contact--sm@2x.jpg");
+  }
+
+  // Medium screens
+  @include media-query("md") {
+    background-image: url("/images/bg_contact--med.jpg");
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url("/images/bg_contact--med@2x.jpg");
+    }
+  }
+
+  // Large screens
+  @include media-query("lg") {
+    background-image: url("/images/bg_contact--lrg.jpg");
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url("/images/bg_contact--lrg@2x.jpg");
+    }
+  }
+}
+
 .contacts {
   &__list {
     font-size: get-size("600");
