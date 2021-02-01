@@ -1,5 +1,4 @@
 .work-description {
-  background: pink;
   position: relative;
 
   @include media-query("md") {
@@ -8,7 +7,6 @@
 
   &__services {
     display: flex;
-    background: orange;
     flex: 1 1 0;
 
     ul {
@@ -17,7 +15,6 @@
       }
 
       column-count: 2;
-      background: lightcoral;
       font-size: get-size("300");
       padding: 0;
       list-style: none;
@@ -31,7 +28,6 @@
   }
 
   &__quote {
-    background: yellow;
     flex: 1 1 0;
 
     p {
@@ -52,7 +48,6 @@
   }
 
   &__company {
-    background: dodgerblue;
     margin-top: 2rem;
 
     @include media-query("lg") {
@@ -64,8 +59,6 @@
   }
 
   &__website {
-    background: palegoldenrod;
-
     a:link,
     a:visited {
       @include media-query("lg") {

@@ -3,6 +3,7 @@ workTitle: 'Behind the scenes'
 workSummary: 'A travel journal that transports you to some of the most beautiful places on earth.'
 displayOrder: 2
 featured: true
+bodyClass: 'bg-work--test'
 heroFeatured:
   image: "/images/work/preview-regenerative-pathways.jpg"
   imageAlt: "A composition of the main landing screen and other key views"
@@ -35,4 +36,10 @@ gallery:
 companyName: 'yo'
 companyURL: 'yo'
 companySite: 'yo'
+paginationPrev:
+  - prevLink: "/yo/"
+    prevTitle: "Prev Titl"
+paginationNext:
+  - nextLink: "/sssyo/"
+    nextTitle: "Nexcrt Titl"
 ---

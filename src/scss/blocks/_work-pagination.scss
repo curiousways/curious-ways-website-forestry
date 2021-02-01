@@ -1,4 +1,6 @@
 .work-pagination {
+  margin-top: get-size("major");
+
   &__items {
     display: flex;
     justify-content: space-between;

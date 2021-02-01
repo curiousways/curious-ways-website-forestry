@@ -11,6 +11,9 @@ $outputTokenCSS: false;
 @import "blocks/address";
 
 .bg--contact {
+  background-size: cover;
+  background-position: 50% 0;
+
   // Small screens
   background-image: url("/images/bg_contact--sm.jpg");
 

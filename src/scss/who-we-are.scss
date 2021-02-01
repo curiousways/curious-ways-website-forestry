@@ -12,6 +12,9 @@ $outputTokenCSS: false;
 @import "blocks/person";
 
 .bg--who-we-are {
+  background-size: cover;
+  background-position: 50% 0;
+
   // Small screens
   background-image: url("/images/bg_who-we-are--sm.jpg");
 

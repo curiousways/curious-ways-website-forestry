@@ -8,6 +8,9 @@ $outputTokenCSS: false;
 @import "../../node_modules/gorko/gorko.scss";
 
 .bg--home {
+  background-size: cover;
+  background-position: 50% 0;
+
   // Small screens
   background-image: url("/images/bg_home--sm.jpg");
 

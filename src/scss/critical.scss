@@ -6,27 +6,6 @@
 
 @import "reset";
 
-// MQ Testing
-// TODO remove when finished
-
-body {
-  @include media-query("sm") {
-    border: 10px solid cyan;
-  }
-
-  @include media-query("md") {
-    border: 10px solid magenta;
-  }
-
-  @include media-query("lg") {
-    border: 10px solid yellow;
-  }
-
-  @include media-query("xl") {
-    border: 10px solid black;
-  }
-}
-
 // Global styles start
 :root {
   --flow-space: #{get-size("600")};
