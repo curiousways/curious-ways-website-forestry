@@ -1,6 +1,31 @@
 <div>
   <div class="[ work-gallery__media ]">
-    <img src="{{ imageURL }}" alt="{{ imageAlt }}" aria-hidden="true" />
+    {# <picture>
+      <source srcset="{{ imageURL }}.webp" type="image/webp">
+      <source srcset="{{ imageURL }}.jpg" type="image/jpeg"> 
+      <img src="{{ imageURL }}.jpg" 
+        alt="{{ imageAlt }}"
+        aria-hidden="true"
+        lazy="true"
+      >
+    </picture> #}
+
+    <picture>
+      <source srcset="{{ image375 }}.webp 375w, {{ image750 }}.webp 2x" media="max-width: 399px" type="image/webp">
+      <source srcset="{{ image750 }}.jpg 375w, {{ image750 }}.jpg 2x" media="max-width: 399px" type="image/jpeg">
+      <source srcset="{{ image600 }}.webp 600w, {{ image1200 }}.webp 2x" media="(min-width: 400px) and (max-width: 767px)" type="image/webp">
+      <source srcset="{{ image600 }}.jpg 600w, {{ image1200 }}.jpg 2x" media="(min-width: 400px) and (max-width: 767px)" type="image/jpeg">
+      <source srcset="{{ image995 }}.webp 995w, {{ image1990 }}.webp 2x" media="(min-width: 768px) and (max-width: 1150px)" type="image/webp">
+      <source srcset="{{ image995 }}.jpg 995w, {{ image1990 }}.jpg 2x" media="(min-width: 760px) and (max-width: 1150px)" type="image/jpeg">
+      <source srcset="{{ image1200 }}.webp 1200w, {{ image2400 }}.webp 2x" media="(min-width: 1151px)" type="image/webp">
+      <source srcset="{{ image1200 }}.jpg 1200w, {{ image2400 }}.jpg 2x" media="(min-width: 1151px)" type="image/jpeg">
+      <img src="{{ image1200 }}.jpg" 
+        alt="{{ imageAlt }}"
+        aria-hidden="true"
+        lazy="true"
+      >
+    </picture>
+
   </div>
   
   <figcaption class="[ work-gallery__content ]">
