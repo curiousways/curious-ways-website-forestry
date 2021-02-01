@@ -5,6 +5,13 @@
   margin-right: auto;
   max-width: 75rem;
 
+  img {
+    margin: auto;
+    @include media-query("sm") {
+      padding: 0 get-size("400");
+    }
+  }
+
   &__item {
     &--half {
       max-width: 38rem;
@@ -29,6 +36,15 @@
   }
 
   &__content {
+    text-align: center;
     margin-top: get-size("300");
+
+    @include media-query("sm") {
+      padding: 0 get-size("400");
+    }
+
+    @include media-query("lg") {
+      text-align: left;
+    }
   }
 }
