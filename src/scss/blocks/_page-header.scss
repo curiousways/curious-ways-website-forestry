@@ -1,13 +1,12 @@
 .page-header {
-  margin: get-size('800') auto;
-  background-color: yellow;
+  margin: get-size("800") auto;
 
   &__summary {
-    @include apply-utility('font', 'header-light');
-    font-size: get-size('400');
+    @include apply-utility("font", "header-light");
+    font-size: get-size("400");
 
-    @include media-query('md') {
-      font-size: get-size('500');
+    @include media-query("md") {
+      font-size: get-size("500");
     }
   }
 }

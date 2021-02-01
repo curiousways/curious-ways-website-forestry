@@ -7,6 +7,36 @@ $outputTokenCSS: false;
 // Next: pull in gorko for design tokens
 @import "../../node_modules/gorko/gorko.scss";
 
+.bg--home {
+  background-size: cover;
+  background-position: 50% 0;
+
+  // Small screens
+  background-image: url("/images/bg_home--sm.jpg");
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("/images/bg_home--sm@2x.jpg");
+  }
+
+  // Medium screens
+  @include media-query("md") {
+    background-image: url("/images/bg_home--med.jpg");
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url("/images/bg_home--med@2x.jpg");
+    }
+  }
+
+  // Large screens
+  @include media-query("lg") {
+    background-image: url("/images/bg_home--lrg.jpg");
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url("/images/bg_home--lrg@2x.jpg");
+    }
+  }
+}
+
 .home {
   display: flex;
   align-items: center;

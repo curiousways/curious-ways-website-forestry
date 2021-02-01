@@ -6,27 +6,6 @@
 
 @import "reset";
 
-// MQ Testing
-// TODO remove when finished
-
-body {
-  @include media-query("sm") {
-    border: 10px solid cyan;
-  }
-
-  @include media-query("md") {
-    border: 10px solid magenta;
-  }
-
-  @include media-query("lg") {
-    border: 10px solid yellow;
-  }
-
-  @include media-query("xl") {
-    border: 10px solid black;
-  }
-}
-
 // Global styles start
 :root {
   --flow-space: #{get-size("600")};
@@ -112,8 +91,6 @@ h4 {
 @import "blocks/cta";
 @import "blocks/nav";
 @import "blocks/page-header";
-@import "blocks/people";
-@import "blocks/person";
 @import "blocks/site-main";
 @import "blocks/site-foot";
 @import "blocks/site-head";
