@@ -1,14 +1,14 @@
 ---
-title: "Engenuiti"
-displayOrder: 3
-featured: true
+title: "Notion"
+displayOrder: 4
+featured: false
 bodyClass: "bg-work--engenuiti"
-workTitle: "Engenuiti"
-workSummary: "Neverland brought us in to build their client's B2B website promoting regenerative business practices. As the project progressed, the brief expanded to incorporate branding, UX strategy and UI design."
-workQuote: "They clearly invested heavily in developing an excellent understanding of us and our practice, helping us understand our own needs and working with us to develop our brand identity.  We’ve been in expert hands throughout whilst enjoying participating fully in their creative process."
-workQuoteSource: "Nathan Wheatly, Director"
-workURL: "https://engenuiti.com"
-workWeb: "engenuiti.com"
+workTitle: "Notion"
+workSummary: "We re-launched Notion’s digital offerings. Helping to double their online readership in less than a year."
+workQuote: "Working with Curious Ways has really helped us understand and develop our brand identity, website and full digital potential more than any previous web development agencies we'd previously worked with. After our relaunch we doubled our digital readership in under a year. Its no coincidence this is partly due to Back To Front's knowledge and creativity within the world of the web."
+workQuoteSource: "Nicholas Douglas, MD, Notion"
+workURL: "https://notion.online"
+workWeb: "notion.online"
 heroFeatured:
   image: "/images/work/engenuiti_1.webp"
   imageAlt: "Engenuiti logo"
@@ -16,14 +16,7 @@ hero:
   image: "/images/work/preview-regenerative-pathways.jpg"
   imageAlt: "A composition of all the views from the app"
 servicesList:
-  - service: "Art Direction"
-  - service: "Branding"
-  - service: "Brand Strategy"
-  - service: "Illustration"
-  - service: "Print Design"
-  - service: "Social Media"
-  - service: "Website Build"
-  - service: "Website Design"
+  - service: "NEED"
 gallery:
   - title: "Creative layouts"
     image2400: "/images/work/img2400"
