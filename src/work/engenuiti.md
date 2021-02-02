@@ -1,4 +1,5 @@
 ---
+title: "Engenuiti"
 workTitle: "Engenuiti"
 workSummary: "They clearly invested heavily in developing an excellent understanding of us and our practice, helping us understand our own needs and working with us to develop our brand identity.  We’ve been in expert hands throughout whilst enjoying participating fully in their creative process."
 displayOrder: 2
