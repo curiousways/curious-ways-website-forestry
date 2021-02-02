@@ -1,14 +1,14 @@
 ---
-title: "Engenuiti"
-displayOrder: 3
-featured: true
+title: "Pickups"
+displayOrder: 4
+featured: false
 bodyClass: "bg-work--engenuiti"
-workTitle: "Engenuiti"
-workSummary: "Neverland brought us in to build their client's B2B website promoting regenerative business practices. As the project progressed, the brief expanded to incorporate branding, UX strategy and UI design."
-workQuote: "They clearly invested heavily in developing an excellent understanding of us and our practice, helping us understand our own needs and working with us to develop our brand identity.  We’ve been in expert hands throughout whilst enjoying participating fully in their creative process."
-workQuoteSource: "Nathan Wheatly, Director"
-workURL: "https://engenuiti.com"
-workWeb: "engenuiti.com"
+workTitle: "Pickups"
+workSummary: "NEED"
+workQuote: "NEED"
+workQuoteSource: "NEED"
+workURL: "https://www.usepickups.com"
+workWeb: "usepickups.com"
 heroFeatured:
   image: "/images/work/engenuiti_1.webp"
   imageAlt: "Engenuiti logo"
@@ -16,14 +16,7 @@ hero:
   image: "/images/work/preview-regenerative-pathways.jpg"
   imageAlt: "A composition of all the views from the app"
 servicesList:
-  - service: "Art Direction"
-  - service: "Branding"
-  - service: "Brand Strategy"
-  - service: "Illustration"
-  - service: "Print Design"
-  - service: "Social Media"
-  - service: "Website Build"
-  - service: "Website Design"
+  - service: "NEED"
 gallery:
   - title: "Creative layouts"
     image2400: "/images/work/img2400"

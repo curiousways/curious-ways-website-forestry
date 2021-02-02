@@ -41,10 +41,10 @@
 
           {% set pageHeaderTitle = item.data.workTitle %} 
           {% set pageHeaderSummary = "" %} 
-          {% set workDetailsSummary = item.data.workSummary %}
-          {% set workDetailsCo = item.data.companySource %}
-          {% set workDetailsURL = item.data.companyURL %}
-          {% set workDetailsSite = item.data.companySite %}
+          {% set workDetailsSummary = item.data.workQuote %}
+          {% set workDetailsCo = item.data.workQuoteSource %}
+          {% set workDetailsURL = item.data.workURL %}
+          {% set workDetailsSite = item.data.workWeb %}
           {% set workServices = item.data.servicesList %}
           {% include "partials/work-details.njk" %}
 
