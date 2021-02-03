@@ -1,7 +1,7 @@
 ---
 title: "Notion"
 displayOrder: 4
-featured: false
+featured: true
 bodyClass: "bg-work--engenuiti"
 workTitle: "Notion"
 workSummary: "We re-launched Notion’s digital offerings. Helping to double their online readership in less than a year."
@@ -9,30 +9,34 @@ workQuote: "Working with Curious Ways has really helped us understand and develo
 workQuoteSource: "Nicholas Douglas, MD, Notion"
 workURL: "https://notion.online"
 workWeb: "notion.online"
+heroFeatured:
+  imageRectangle: "v1612299314/cwys_website/Notion_portfolio_pages_2_c4ozsz"
+  imageSquare: "v1612299321/cwys_website/Notion_portfolio_pages_square_2_wmfglv"
+  imageAlt: "Notion"
 hero:
-  image: "v1612299321/Notion_portfolio_pages_square_2_wmfglv"
-  imageAlt: ""
+  image: "v1612299324/cwys_website/Notion_portfolio_pages_square_4_gscbkm"
+  imageAlt: "Notion"
 servicesList:
   - service: "NEED"
 gallery:
   - title: "NEED"
-    imageRectangle: "v1612299315/Notion_portfolio_pages_1_wt2xpg"
-    imageSquare:  "v1612299321/Notion_portfolio_pages_square_1_gekxza"
+    imageRectangle: "v1612299315/cwys_website/Notion_portfolio_pages_1_wt2xpg"
+    imageSquare: "v1612299321/cwys_website/Notion_portfolio_pages_square_1_gekxza"
   - title: "NEED"
-    imageRectangle: "v1612299314/Notion_portfolio_pages_2_c4ozsz"
-    imageSquare:  "v1612299321/Notion_portfolio_pages_square_2_wmfglv"
+    imageRectangle: "v1612299314/cwys_website/Notion_portfolio_pages_2_c4ozsz"
+    imageSquare: "v1612299321/cwys_website/Notion_portfolio_pages_square_2_wmfglv"
   - title: "NEED"
-    imageRectangle: "v1612299310/Notion_portfolio_pages_3_bdx38o"
-    imageSquare:  "v1612299326/Notion_portfolio_pages_square_3_hh7yld"
+    imageRectangle: "v1612299310/cwys_website/Notion_portfolio_pages_3_bdx38o"
+    imageSquare: "v1612299326/cwys_website/Notion_portfolio_pages_square_3_hh7yld"
   - title: "NEED"
-    imageRectangle: "v1612299315/Notion_portfolio_pages_4_ovxoey"
-    imageSquare:  "v1612299324/Notion_portfolio_pages_square_4_gscbkm"
+    imageRectangle: "v1612299315/cwys_website/Notion_portfolio_pages_4_ovxoey"
+    imageSquare: "v1612299324/cwys_website/Notion_portfolio_pages_square_4_gscbkm"
   - title: "NEED"
-    imageRectangle: "v1612299316/Notion_portfolio_pages_5_vznfb1"
-    imageSquare:  "v1612299324/Notion_portfolio_pages_square_5_dunlnb"
+    imageRectangle: "v1612299316/cwys_website/Notion_portfolio_pages_5_vznfb1"
+    imageSquare: "v1612299324/cwys_website/Notion_portfolio_pages_square_5_dunlnb"
   - title: "NEED"
-    imageRectangle: "v1612299317/Notion_portfolio_pages_6_w5rumf"
-    imageSquare:  "v1612299326/Notion_portfolio_pages_square_6_vmi3fa"
+    imageRectangle: "v1612299317/cwys_website/Notion_portfolio_pages_6_w5rumf"
+    imageSquare: "v1612299326/cwys_website/Notion_portfolio_pages_square_6_vmi3fa"
 paginationPrev:
   - prevLink: "/yo/"
     prevTitle: "Prev Titl"
