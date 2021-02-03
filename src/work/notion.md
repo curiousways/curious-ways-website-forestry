@@ -10,11 +10,11 @@ workQuoteSource: "Nicholas Douglas, MD, Notion"
 workURL: "https://notion.online"
 workWeb: "notion.online"
 heroFeatured:
-  imageRectangle: "v1612299314/cwys_website/Notion_portfolio_pages_2_c4ozsz"
+  imageRectangle: "v1612299310/cwys_website/Notion_portfolio_pages_3_bdx38o"
   imageSquare: "v1612299321/cwys_website/Notion_portfolio_pages_square_2_wmfglv"
   imageAlt: "Notion"
 hero:
-  image: "v1612299324/cwys_website/Notion_portfolio_pages_square_4_gscbkm"
+  image: "v1612299321/cwys_website/Notion_portfolio_pages_square_2_wmfglv"
   imageAlt: "Notion"
 servicesList:
   - service: "NEED"
