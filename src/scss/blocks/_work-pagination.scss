@@ -1,0 +1,24 @@
+.work-pagination {
+  margin-top: get-size("major");
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      @include apply-utility("font", "header-med");
+      font-size: get-size("600");
+      text-decoration: none;
+    }
+
+    small {
+      margin-bottom: get-size("300");
+    }
+
+    > div {
+      > * {
+        display: block;
+      }
+    }
+  }
+}

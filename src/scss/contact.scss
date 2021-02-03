@@ -1,0 +1,83 @@
+// First up: config and functions
+@import "config";
+
+// Set Gorko to output no CSS for this file
+$outputTokenCSS: false;
+
+// Next: pull in gorko for design tokens
+@import "../../node_modules/gorko/gorko.scss";
+
+// Pull in blocks
+@import "blocks/address";
+
+.bg--contact {
+  background-size: cover;
+  background-position: 50% 0;
+
+  // Small screens
+  background-image: url("/images/bg_contact--sm.jpg");
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("/images/bg_contact--sm@2x.jpg");
+  }
+
+  // Medium screens
+  @include media-query("md") {
+    background-image: url("/images/bg_contact--med.jpg");
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url("/images/bg_contact--med@2x.jpg");
+    }
+  }
+
+  // Large screens
+  @include media-query("lg") {
+    background-image: url("/images/bg_contact--lrg.jpg");
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url("/images/bg_contact--lrg@2x.jpg");
+    }
+  }
+}
+
+.contacts {
+  &__list {
+    font-size: get-size("600");
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__locations {
+    display: flex;
+    flex-direction: column;
+    margin-top: get-size("800");
+
+    > * + * {
+      margin-top: get-size("600");
+    }
+
+    @include media-query("md") {
+      flex-direction: row;
+      max-width: 50ch;
+
+      > * + * {
+        margin-top: 0;
+      }
+
+      > * {
+        flex: 1 0 auto;
+      }
+    }
+
+    @include media-query("lg") {
+      flex-direction: column;
+      max-width: 70ch;
+
+      > * + * {
+        margin-top: get-size("600");
+      }
+    }
+  }
+}

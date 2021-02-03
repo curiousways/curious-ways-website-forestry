@@ -1,0 +1,43 @@
+.address {
+  font-size: get-size('500');
+  display: flex;
+  flex-direction: column;
+
+  @include media-query('lg') {
+    flex-direction: row;
+  }
+
+  &__title {
+    display: block;
+    margin: 0 0 get-size('400');
+  }
+
+  &__location {
+    font-size: get-size('500');  
+    margin-bottom: get-size('700');
+
+    @include media-query('lg') {
+      margin-bottom: 0;
+    }
+  }
+
+  &__details {
+    > * {
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    @include media-query('lg') {
+      > * {
+        display: inline;
+      }
+    }
+  }
+  &__telephone {
+    margin-top: auto;
+
+    @include media-query('lg') {
+      margin-left: auto;
+    }
+  }
+}

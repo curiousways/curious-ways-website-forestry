@@ -1,0 +1,73 @@
+.work-description {
+  position: relative;
+
+  @include media-query("md") {
+    display: flex;
+  }
+
+  &__services {
+    display: flex;
+    flex: 1 1 0;
+
+    ul {
+      @include media-query("lg") {
+        margin: 0 get-size("800");
+      }
+
+      column-count: 2;
+      font-size: get-size("300");
+      padding: 0;
+      list-style: none;
+
+      li {
+        display: block;
+        line-height: 1.5;
+        padding-right: 2rem;
+      }
+    }
+  }
+
+  &__quote {
+    flex: 1 1 0;
+
+    p {
+      padding-right: get-size("800");
+      margin-bottom: get-size("400");
+    }
+
+    &:before {
+      @include apply-utility("font", "header-med");
+      content: "\201C";
+      color: get-color("purple");
+      font-size: 50px;
+      position: absolute;
+      left: -2rem;
+      top: -0.5rem;
+      line-height: 1;
+    }
+  }
+
+  &__company {
+    margin-top: 2rem;
+
+    @include media-query("lg") {
+      display: flex;
+      > div {
+        flex: 1 1 0;
+      }
+    }
+  }
+
+  &__website {
+    a:link,
+    a:visited {
+      @include media-query("lg") {
+        margin-left: get-size("800");
+      }
+      @include apply-utility("font", "header-med");
+      text-decoration: none;
+    }
+    color: get-color("purple");
+    display: block;
+  }
+}

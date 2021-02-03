@@ -1,0 +1,51 @@
+---
+title: "Zenden"
+displayOrder: 2
+featured: false
+bodyClass: "bg-work--engenuiti"
+workTitle: "Zenden"
+workSummary: "We took a brand-new business and created a multi-channel brand experience that resonates with three distinct audiences: home buyers, home sellers and real estate agents. Their commitment to the success of the endeavor, and to the quality of the output under tight timelines, was remarkable."
+workQuote: "Curious Ways took complex business ideas and turned them into beautiful and easy to understand branded solutions, with all the supporting physical and digital marketing materials."
+workQuoteSource: "Ron Davidson, SVP, The D. E. Shaw Group"
+workURL: "https://usezenden.com"
+workWeb: "usezenden.com"
+hero:
+  image: "v1612371250/cwys_website/Zenden_portfolio_pages_square_4_dlu5jn"
+  imageAlt: "Zenden"
+servicesList:
+  - service: "Brand strategy"
+  - service: "Brand design"
+  - service: "Tone of Voice"
+  - service: "Illustration"
+  - service: "Print design"
+  - service: "UX Strategy"
+  - service: "Website design & build"
+  - service: "Copywriting"
+  - service: "Sales collateral"
+  - service: "Animation"
+gallery:
+  - title: "NEED"
+    imageRectangle: "v1612370850/cwys_website/Zenden_portfolio_pages_1_xvbqjz"
+    imageSquare: "v1612371248/cwys_website/Zenden_portfolio_pages_square_1_fxyotv"
+  - title: "NEED"
+    imageRectangle: "v1612370853/cwys_website/Zenden_portfolio_pages_2_wdglem"
+    imageSquare: "v1612371247/cwys_website/Zenden_portfolio_pages_square_2_nlhhw2"
+  - title: "NEED"
+    imageRectangle: "v1612370850/cwys_website/Zenden_portfolio_pages_3_clp0mw"
+    imageSquare: "v1612371248/cwys_website/Zenden_portfolio_pages_square_3_zpk0rk"
+  - title: "NEED"
+    imageRectangle: "v1612370852/cwys_website/Zenden_portfolio_pages_4_mktweh"
+    imageSquare: "v1612371250/cwys_website/Zenden_portfolio_pages_square_4_dlu5jn"
+  - title: "NEED"
+    imageRectangle: "v1612371247/cwys_website/Zenden_portfolio_pages_square_5_v14qgo"
+    imageSquare: "v1612299324/cwys_website/Notion_portfolio_pages_square_5_dunlnb"
+  - title: "NEED"
+    imageRectangle: "v1612370853/cwys_website/Zenden_portfolio_pages_6_mqnq4h"
+    imageSquare: "v1612371248/cwys_website/Zenden_portfolio_pages_square_6_opg59d"
+paginationPrev:
+  - prevLink: "/yo/"
+    prevTitle: "Prev Titl"
+paginationNext:
+  - nextLink: "/sssyo/"
+    nextTitle: "Nexcrt Titl"
+---

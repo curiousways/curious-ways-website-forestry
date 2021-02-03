@@ -1,0 +1,46 @@
+---
+title: "Engenuiti"
+displayOrder: 3
+featured: false
+bodyClass: "bg-work--engenuiti"
+workTitle: "Engenuiti"
+workSummary: "We helped this firm of structural and civil engineers celebrate their 10th anniversary with new branding and website."
+workQuote: "We’ve thoroughly enjoyed working with CW. They clearly invested heavily in developing an excellent understanding of us and our practice, helping us understand our own needs and working with us to develop our brand identity. We’ve been in expert hands throughout whilst enjoying participating fully in their creative process."
+workQuoteSource: "Nathan Wheatly, Director"
+workURL: "https://engenuiti.com"
+workWeb: "engenuiti.com"
+hero:
+  image: "v1612374070/cwys_website/Engenuiti_portfolio_pages_square_5_vbk0e1"
+  imageAlt: "Engenuiti"
+servicesList:
+  - service: "Art Direction"
+  - service: "Branding"
+  - service: "Brand Strategy"
+  - service: "Illustration"
+  - service: "Print Design"
+  - service: "Social Media"
+  - service: "Website Build"
+  - service: "Website Design"
+gallery:
+  - title: "NEED"
+    imageRectangle: "v1612373840/cwys_website/Engenuiti_portfolio_pages_1_bgcufa"
+    imageSquare: "v1612374068/cwys_website/Engenuiti_portfolio_pages_square_1_e716rk"
+  - title: "NEED"
+    imageRectangle: "v1612373839/cwys_website/Engenuiti_portfolio_pages_2_eyradv"
+    imageSquare: "v1612374069/cwys_website/Engenuiti_portfolio_pages_square_2_if6e5h"
+  - title: "NEED"
+    imageRectangle: "v1612373842/cwys_website/Engenuiti_portfolio_pages_3_dsgbhl"
+    imageSquare: "v1612374069/cwys_website/Engenuiti_portfolio_pages_square_3_ibtgi4"
+  - title: "NEED"
+    imageRectangle: "v1612373842/cwys_website/Engenuiti_portfolio_pages_4_mwd7k6"
+    imageSquare: "v1612374069/cwys_website/Engenuiti_portfolio_pages_square_4_rvex0n"
+  - title: "NEED"
+    imageRectangle: "v1612373838/cwys_website/Engenuiti_portfolio_pages_5_cjlcek"
+    imageSquare: "v1612374070/cwys_website/Engenuiti_portfolio_pages_square_5_vbk0e1"
+paginationPrev:
+  - prevLink: "/yo/"
+    prevTitle: "Prev Titl"
+paginationNext:
+  - nextLink: "/sssyo/"
+    nextTitle: "Nexcrt Titl"
+---

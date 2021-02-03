@@ -1,53 +1,85 @@
 // First up: config and functions
-@import 'config';
+@import "config";
 
 // Set Gorko to output no CSS for this file
 $outputTokenCSS: false;
 
 // Next: pull in gorko for design tokens
-@import '../../node_modules/gorko/gorko.scss';
+@import "../../node_modules/gorko/gorko.scss";
+
+.bg--home {
+  background-size: cover;
+  background-position: 50% 0;
+
+  // Small screens
+  background-image: url("/images/bg_home--sm.jpg");
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("/images/bg_home--sm@2x.jpg");
+  }
+
+  // Medium screens
+  @include media-query("md") {
+    background-image: url("/images/bg_home--med.jpg");
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url("/images/bg_home--med@2x.jpg");
+    }
+  }
+
+  // Large screens
+  @include media-query("lg") {
+    background-image: url("/images/bg_home--lrg.jpg");
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url("/images/bg_home--lrg@2x.jpg");
+    }
+  }
+}
 
 .home {
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
 
   @media (min-width: 600px) and (min-height: 700px) {
     // TODO change pixel value when height of footer and header is known;
     // Header = 140px
     // Footer = 101px
-    height: calc(100vh - 241px); // 100vh minus the height of the footer + height of the header. Heights based on content + padding totals
+    height: calc(
+      100vh - 241px
+    ); // 100vh minus the height of the footer + height of the header. Heights based on content + padding totals
   }
 
-  padding: get-size('800') 0;
+  padding: get-size("800") 0;
 
-  @include media-query('md') {
-    max-width: 600px; 
+  @include media-query("md") {
+    max-width: 600px;
   }
 
-  @include media-query('xl') {
+  @include media-query("xl") {
     max-width: 900px;
   }
 
-  &__title, 
+  &__title,
   &__subtitle,
-  &__cta  {
-    font-size: get-size('600');
+  &__cta {
+    font-size: get-size("600");
 
-    @include media-query('xl') {
-      font-size: get-size('700');
+    @include media-query("xl") {
+      font-size: get-size("700");
     }
   }
 }
 
 .home-video {
-	object-fit: cover;
+  object-fit: cover;
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-	z-index: 1;
-	transition: all 1.5s;
+  z-index: 1;
+  transition: all 1.5s;
 
   &--finished {
     opacity: 0;

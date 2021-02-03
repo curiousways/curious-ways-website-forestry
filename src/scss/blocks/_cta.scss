@@ -1,0 +1,16 @@
+.cta {
+  @include media-query('md') {
+    &__inner {
+    }
+
+    &__heading {
+    }
+
+    &__summary {
+      font-size: get-size('500');
+    }
+
+    &__action {
+    }
+  }
+}

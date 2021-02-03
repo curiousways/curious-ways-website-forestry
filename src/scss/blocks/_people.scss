@@ -1,3 +1,15 @@
 .people {
-  --auto-grid-gap: #{get-size('700')};
+  &__grid {
+    display: grid;
+    grid-gap: var(--auto-grid-gap, get-size("900"));
+    grid-template-columns: 1fr;
+
+    @include media-query("md") {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include media-query("lg") {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
 }

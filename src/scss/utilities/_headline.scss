@@ -1,0 +1,8 @@
+.headline {
+  font-size: get-size("600");
+  max-width: 18ch;
+
+  @include media-query("md") {
+    font-size: get-size("700");
+  }
+}

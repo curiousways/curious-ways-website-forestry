@@ -1,14 +1,14 @@
 {
   "name": "curious-ways-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Eleventy and CubeCSS website for Curious Ways",
   "main": ".eleventy.js",
   "scripts": {
     "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
     "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
   },
   "keywords": [],
-  "author": "",
+  "author": "Curious Ways",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
@@ -21,5 +21,8 @@
     "gulp-sass": "^4.1.0",
     "html-minifier": "^4.0.0",
     "sass": "^1.29.0"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
   }
 }

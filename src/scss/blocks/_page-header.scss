@@ -1,3 +1,12 @@
 .page-header {
-  padding: get-size('800') 0;
+  margin: get-size("800") auto;
+
+  &__summary {
+    @include apply-utility("font", "header-light");
+    font-size: get-size("400");
+
+    @include media-query("md") {
+      font-size: get-size("500");
+    }
+  }
 }
