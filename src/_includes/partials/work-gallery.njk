@@ -6,13 +6,8 @@
       {% set imageAlt = item.imageAlt %}
       {% set imageTitle = item.title %}
 
-      {% set image2400 = item.image2400 %}
-      {% set image1200 = item.image1200 %}
-      {% set image1990 = item.image1990 %}
-      {% set image995  = item.image995 %}
-      {% set image600  = item.image600 %}
-      {% set image375  = item.image375 %}
-      {% set image750  = item.image750 %}
+      {% set imageRectangle = item.imageRectangle %}
+      {% set imageSquare = item.imageSquare %}
       {% include "partials/work-gallery__img.njk" %}
 
       {% if item.imageSecond %}
