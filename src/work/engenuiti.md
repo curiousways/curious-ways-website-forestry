@@ -1,7 +1,7 @@
 ---
 title: "Engenuiti"
 displayOrder: 3
-featured: true
+featured: false
 bodyClass: "bg-work--engenuiti"
 workTitle: "Engenuiti"
 workSummary: "Neverland brought us in to build their client's B2B website promoting regenerative business practices. As the project progressed, the brief expanded to incorporate branding, UX strategy and UI design."
@@ -9,9 +9,6 @@ workQuote: "They clearly invested heavily in developing an excellent understandi
 workQuoteSource: "Nathan Wheatly, Director"
 workURL: "https://engenuiti.com"
 workWeb: "engenuiti.com"
-heroFeatured:
-  image: "/images/work/engenuiti_1.webp"
-  imageAlt: "Engenuiti logo"
 hero:
   image: "/images/work/preview-regenerative-pathways.jpg"
   imageAlt: "A composition of all the views from the app"
