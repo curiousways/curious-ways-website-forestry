@@ -8,16 +8,15 @@
 
 <article class="[ panel ]">
 
-  <div class="[ work-details ]  [ wrapper ]">
+  <div class="[ work-details ] [ wrapper ]">
 
     <div class="[ work-description ]">
 
       <blockqoute class="work-description__quote">
-        <p class="[ lg:measure-short ]">{{ workDetailsSummary }}</p>
+        <p>{{ workDetailsSummary }}</p>
       </blockqoute>
 
       <div class="work-description__services">
-
         <ul class="work-description__list">
           {% for item in workServices %}
             <li>
@@ -25,7 +24,6 @@
             </li>
           {% endfor %}
         </ul>
-
       </div>
 
     </div>
