@@ -1,25 +1,61 @@
+{% set cloudURL = "https://res.cloudinary.com/curiousways/image/upload" %}
+{% set cloudQ = "q_60" %}
+
 <div>
   <div class="[ work-gallery__media ]">
-    {# <picture>
-      <source srcset="{{ imageURL }}.webp" type="image/webp">
-      <source srcset="{{ imageURL }}.jpg" type="image/jpeg"> 
-      <img src="{{ imageURL }}.jpg" 
-        alt="{{ imageAlt }}"
-        aria-hidden="true"
-        lazy="true"
-      >
-    </picture> #}
 
     <picture>
-      <source srcset="{{ image375 }}.webp 375w, {{ image750 }}.webp 2x" media="(min-width: 0) and (max-width: 399px)" type="image/webp">
-      <source srcset="{{ image375 }}.jpg 375w, {{ image750 }}.jpg 2x" media="(min-width: 0) and (max-width: 399px)" type="image/jpeg">
-      <source srcset="{{ image600 }}.webp 600w, {{ image1200 }}.webp 2x" media="(min-width: 400px) and (max-width: 767px)" type="image/webp">
-      <source srcset="{{ image600 }}.jpg 600w, {{ image1200 }}.jpg 2x" media="(min-width: 400px) and (max-width: 767px)" type="image/jpeg">
-      <source srcset="{{ image995 }}.webp 995w, {{ image1990 }}.webp 2x" media="(min-width: 768px) and (max-width: 1150px)" type="image/webp">
-      <source srcset="{{ image995 }}.jpg 995w, {{ image1990 }}.jpg 2x" media="(min-width: 760px) and (max-width: 1150px)" type="image/jpeg">
-      <source srcset="{{ image1200 }}.webp 1200w, {{ image2400 }}.webp 2x" media="(min-width: 1151px)" type="image/webp">
-      <source srcset="{{ image1200 }}.jpg 1200w, {{ image2400 }}.jpg 2x" media="(min-width: 1151px)" type="image/jpeg">
-      <img src="{{ image1200 }}.jpg" 
+      <!-- Small screens -->
+        <!-- WebP -->
+      <source 
+        srcset="
+        {{ cloudURL }}/c_scale,w_375/{{ cloudQ }}/{{ imageSquare }}.webp 375w, 
+        {{ cloudURL }}/c_scale,w_750/{{ cloudQ }}/{{ imageSquare }}.webp 2x" 
+        media="(min-width: 0) and (max-width: 399px)" type="image/webp">
+      <!-- JPG -->
+      <source 
+        srcset="{{ cloudURL }}/c_scale,w_375/{{ cloudQ }}/{{ imageSquare }}.jpg 375w, 
+        {{ cloudURL }}/c_scale,w_750/{{ cloudQ }}/{{ imageSquare }}.jpg 2x" 
+        media="(min-width: 0) and (max-width: 399px)" type="image/jpeg">
+
+      <!-- Mini screens -->
+        <!-- WebP -->
+      <source 
+        srcset="{{ cloudURL }}/c_scale,w_600/{{ cloudQ }}/{{ imageRectangle }}.webp 600w,
+        {{ cloudURL }}/c_scale,w_1200/{{ cloudQ }}/{{ imageRectangle }}.webp 2x" 
+        media="(min-width: 400px) and (max-width: 767px)" type="image/webp">
+       <!-- JPG --> 
+      <source 
+        srcset="{{ cloudURL }}/c_scale,w_600/{{ cloudQ }}/{{ imageRectangle }}.jpg 600w, 
+        {{ cloudURL }}/c_scale,w_1200/{{ cloudQ }}/{{ imageRectangle }}.jpg 2x" 
+        media="(min-width: 400px) and (max-width: 767px)" type="image/jpeg">
+
+      <!-- Medium screens -->
+        <!-- WebP -->
+      <source 
+        srcset="{{ cloudURL }}/c_scale,w_995/{{ cloudQ }}/{{ imageRectangle }}.webp 995w,
+        {{ cloudURL }}/c_scale,w_1990/{{ cloudQ }}/{{ imageRectangle }}.webp 2x" 
+        media="(min-width: 768px) and (max-width: 1150px)" type="image/webp">
+      <!-- JPG -->
+      <source 
+        srcset="{{ cloudURL }}/c_scale,w_995/{{ cloudQ }}/{{ imageRectangle }}.jpg 995w, 
+        {{ cloudURL }}/c_scale,w_1990/{{ cloudQ }}/{{ imageRectangle }}.jpg 2x" 
+        media="(min-width: 768px) and (max-width: 1150px)" type="image/jpeg">
+
+      <!-- Large screens -->
+        <!-- WebP -->
+      <source 
+        srcset="{{ cloudURL }}/c_scale,w_2400/{{ cloudQ }}/{{ imageRectangle }}.webp 1200w, 
+        {{ cloudURL }}/c_scale,w_2400/{{ cloudQ }}/{{ imageRectangle }}.webp 2x"
+        media="(min-width: 1151px)" type="image/webp">
+        <!-- JPG -->
+        <source 
+        srcset="{{ cloudURL }}/c_scale,w_2400/{{ cloudQ }}/{{ imageRectangle }}.jpg 1200w, 
+        {{ cloudURL }}/c_scale,w_2400/{{ cloudQ }}/{{ imageRectangle }}.jpg 2x"
+        media="(min-width: 1151px)" type="image/jpeg">
+      
+      <!-- Fallback / properties -->
+      <img src="{{ cloudURL }}/c_scale,w_2400/{{ cloudQ }}/{{ imageRectangle }}.jpg" 
         alt="{{ imageAlt }}"
         aria-hidden="true"
         lazy="true"
