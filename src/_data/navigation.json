@@ -1,15 +1,15 @@
 {
   "items": [
     {
+      "text": "People",
+      "url": "/people/"
+    },
+    {
       "text": "Work",
       "url": "/work/"
     },
     {
-      "text": "Who we are",
-      "url": "/who-we-are/"
-    },
-    {
-      "text": "Get in touch",
+      "text": "Contact",
       "url": "/contact/"
     }
   ]
