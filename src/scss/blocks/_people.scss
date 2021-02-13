@@ -7,9 +7,5 @@
     @include media-query("md") {
       grid-template-columns: repeat(2, 1fr);
     }
-
-    @include media-query("lg") {
-      grid-template-columns: repeat(4, 1fr);
-    }
   }
 }
