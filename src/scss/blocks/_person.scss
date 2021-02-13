@@ -6,6 +6,7 @@
   &__details {
     display: block;
     max-width: 40ch;
+    margin-top: get-size("700");
   }
 
   &__image {
@@ -17,10 +18,10 @@
 
   &__name {
     display: block;
-    font-size: get-size('500');
+    font-size: get-size("500");
 
-    @include media-query('md') {
-      font-size: get-size('500');
+    @include media-query("md") {
+      font-size: get-size("500");
     }
   }
 }
