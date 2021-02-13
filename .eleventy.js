@@ -23,16 +23,7 @@ module.exports = (config) => {
 
   // Returns work items, sorted by display order, filter to exclude featured item
   config.addCollection("work", (collection) => {
-    return sortByDisplayOrder(
-      collection.getFilteredByGlob("./src/work/*.md")
-    ).filter((x) => x.data.featured == false);
-  });
-
-  // Returns work items, sorted by display order then filtered by featured
-  config.addCollection("featuredWork", (collection) => {
-    return sortByDisplayOrder(
-      collection.getFilteredByGlob("./src/work/*.md")
-    ).filter((x) => x.data.featured);
+    return sortByDisplayOrder(collection.getFilteredByGlob("./src/work/*.md"));
   });
 
   // Returns a list of people ordered by filename

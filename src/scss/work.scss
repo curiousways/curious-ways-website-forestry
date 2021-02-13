@@ -13,7 +13,23 @@ $outputTokenCSS: false;
 @import "blocks/work-pagination";
 
 .bg-work--engenuiti {
+  background: linear-gradient(1.15deg, #ea3689 11.86%, #fffff9 83.52%);
+}
+
+.bg-work--notion {
+  background: linear-gradient(1.16deg, #0f0f0f 10.78%, #fffff9 83.51%);
+}
+
+.bg-work--pickups {
   background: linear-gradient(1.17deg, #7361f5 1%, #fffff9 83.51%);
+}
+
+.bg-work--regenerative-pathways {
+  background: linear-gradient(1.15deg, #4b2a58 12.59%, #fffff9 83.52%);
+}
+
+.bg-work--zenden {
+  background: linear-gradient(1.17deg, #7267f0 1%, #fffff9 83.51%);
 }
 
 .work-listing {
