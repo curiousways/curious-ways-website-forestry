@@ -3,7 +3,8 @@ title: "Curious Ways"
 metaDesc: "We are creative partners who help all kinds of organisations to think straight, look good and be successful"
 layout: "layouts/home.njk"
 home:
-  title: "We’re Curious Ways. We build brands, websites and campaigns for interesting and ambitious businesses of all sizes."
-  subtitle: "We do intelligent thinking, charismatic ideas and beautiful executions. We work hard and we’re nice to people. That about sums us up."
-  cta: '<a href="mailto:hello@curiousways.com">Get in touch</a> and tell us what you’re looking for.'
+  intro: "Hello."
+  title: "We’re Curious Ways, a small creative agency that does the same things as big creative agencies but usually quicker and invariably cheaper."
+  subtitle: "We believe in thinking differently, working hard and being nice to people."
+  cta: "Take a look at some of our work and if you like it, get in touch and tell us what you’re looking for."
 ---
