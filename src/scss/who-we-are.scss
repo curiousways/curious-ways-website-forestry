@@ -10,33 +10,3 @@ $outputTokenCSS: false;
 // Pull in blocks
 @import "blocks/people";
 @import "blocks/person";
-
-.bg--who-we-are {
-  background-size: cover;
-  background-position: 50% 0;
-
-  // Small screens
-  background-image: url("/images/bg_who-we-are--sm.jpg");
-
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url("/images/bg_who-we-are--sm@2x.jpg");
-  }
-
-  // Medium screens
-  @include media-query("md") {
-    background-image: url("/images/bg_who-we-are--med.jpg");
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url("/images/bg_who-we-are--med@2x.jpg");
-    }
-  }
-
-  // Large screens
-  @include media-query("md") {
-    background-image: url("/images/bg_who-we-are--lrg.jpg");
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url("/images/bg_who-we-are--lrg@2x.jpg");
-    }
-  }
-}
