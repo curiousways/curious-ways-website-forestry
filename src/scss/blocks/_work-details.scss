@@ -1,4 +1,9 @@
 .work-details {
+  @include media-query("md") {
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
   &__intro {
     margin: 0 0 get-size("700");
 
@@ -7,45 +12,63 @@
       max-width: 55ch;
     }
   }
-}
 
-.work-description {
-  position: relative;
+  &__about {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1rem;
 
-  @include media-query("md") {
-    display: flex;
+    @include media-query("md") {
+      grid-template-columns: 50% 50%;
+      grid-gap: 2rem 1rem;
+    }
   }
 
   &__services {
-    display: flex;
-    flex: 1 1 0;
+    grid-row-start: 1;
+    margin-bottom: get-size("500");
+
+    @include media-query("md") {
+      grid-column-start: 2;
+      grid-row-start: 1;
+      margin-bottom: 0;
+    }
 
     ul {
-      @include media-query("lg") {
-        margin: 0 get-size("800");
+      @media (min-width: 450px) {
+        max-width: 400px;
+      }
+      @include media-query("sm") {
+        column-count: 2;
       }
 
-      column-count: 2;
+      @include media-query("lg") {
+        margin-left: get-size("800");
+        margin-right: get-size("800");
+      }
+
       font-size: get-size("300");
       padding: 0;
+      margin-top: 0;
+      margin-bottom: 0;
       list-style: none;
 
       li {
         display: block;
         line-height: 1.5;
-        padding-right: 2rem;
+        @include media-query("lg") {
+          padding-right: 2rem;
+        }
       }
     }
   }
 
   &__quote {
-    flex: 1 1 0;
-
+    position: relative;
     p {
       @include media-query("md") {
         padding-right: get-size("800");
       }
-      margin-bottom: get-size("400");
     }
 
     &:before {
@@ -66,17 +89,18 @@
   }
 
   &__company {
-    margin-top: 2rem;
-
-    @include media-query("lg") {
-      display: flex;
-      > div {
-        flex: 1 1 0;
-      }
+    @include media-query("md") {
+      grid-row-start: 2;
+      grid-column-start: 1;
     }
   }
 
   &__website {
+    @include media-query("md") {
+      grid-row-start: 2;
+      grid-column-start: 2;
+    }
+
     a:link,
     a:visited {
       @include media-query("lg") {

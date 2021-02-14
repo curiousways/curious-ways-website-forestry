@@ -6,35 +6,48 @@
 
   <div class="[ work-details ] [ wrapper ]">
 
-  <p class="[ work-details__intro ]">{{ workSummary }}</p>
+    <p class="[ work-details__intro ]">{{ workSummary }}</p>
 
-    <div class="[ work-description ]">
 
-      <blockqoute class="work-description__quote">
+  <div class="[ work-details__about ]">
+
+    <div class="[ work-details__quote ]">
+
+      <blockqoute class="[ work-description__quote ]">
         <p>{{ workQuote }}</p>
       </blockqoute>
 
-      <div class="work-description__services">
-        <ul class="work-description__list">
-          {% for item in workServices %}
-            <li>
-              <span>{{ item.service }}</span>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+    </div>
+
+    <div class="[ work-details__services ]">
+
+      <ul>
+        {% for item in workServices %}
+          <li>
+            <span>{{ item.service }}</span>
+          </li>
+        {% endfor %}
+      </ul>
 
     </div>
 
-    <div class="work-description__company">
+    <div class="[ work-details_company ]">
       <div>
         {{ workQuoteSource }}
       </div>
-      <div class="work-description__website">
-        <a href="{{ workURL }}">{{ workWeb }}</a>
-      </div>
+
     </div>
-    
+
+    <div class="[ work-details__website ]">
+      <a href="{{ workURL }}">{{ workWeb }}</a>
+    </div>
+  
+  </div>
+
+
+
+
+
   </div>
 
 </article>
