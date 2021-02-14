@@ -6,59 +6,9 @@
 
 {% block content %}
 
-  <article>
+  <article class="visually-hidden">
     {% include "partials/page-header.njk" %}
   </article>
-
-  {% if collections.featuredWork|length %}
-
-    <article class="[ work-featured ]">
-  
-      <div class="[ wrapper ]">
-        <h2
-          class="[ work-featured__heading ] [ lg:measure-micro ]"
-        >
-          {{ featuredWork.title }}
-        </h2>
-      </div>
-    
-      {% for item in collections.featuredWork %}
-    
-        <div class="[ wrapper ]">
-          <a
-            href="{{ item.url }}"
-            aria-label="See {{ item.data.title }}"
-            class="[ featured-work__item ]"
-          >
-            {% set imageRectangle = item.data.heroFeatured.imageRectangle %}
-            {% set imageSquare = item.data.heroFeatured.imageSquare %}
-            {% set imageAlt = item.data.heroFeatured.imageAlt %}
-            {% include "partials/work-img.njk" %}
-          </a>
-        </div>
-    
-        {% set pageHeaderTitle = item.data.workTitle %} 
-        {% set pageHeaderSummary = "" %} 
-        {% set workDetailsSummary = item.data.workQuote %}
-        {% set workDetailsCo = item.data.workQuoteSource %}
-        {% set workDetailsURL = item.data.workURL %}
-        {% set workDetailsSite = item.data.workWeb %}
-        {% set workServices = item.data.servicesList %}
-        {% include "partials/work-details.njk" %}
-    
-        <div class="[ wrapper ]">
-          <div class="work-featured__button">
-            {% set btnURL= item.url %}
-            {% set btnText= "View project" %}
-            {% include "partials/button.njk" %}
-          </div>
-        </div>
-    
-      {% endfor %}
-  
-    </article>
-
-  {% endif %}
 
   <div class="[ panel ]">
     <div class="wrapper">
