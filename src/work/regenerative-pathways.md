@@ -1,8 +1,7 @@
 ---
 title: "Regenerative Pathways"
 displayOrder: 3
-featured: false
-bodyClass: "bg-work--engenuiti"
+bodyClass: "bg-work--regenerative-pathways"
 workTitle: "Regenerative Pathways"
 workSummary: "Neverland brought us in to build their client's B2B website promoting regenerative business practices. As the project progressed, the brief expanded to incorporate branding, UX strategy and UI design."
 workQuote: "Stunning work!"
@@ -30,14 +29,11 @@ gallery:
     imageRectangle: "v1612374371/cwys_website/RP_portfolio_pages_3_ltrjeu"
     imageSquare: "v1612374588/cwys_website/RP_portfolio_pages_square_3_rexce6"
   - title: "NEED"
-    imageRectangle: "v1612374586/cwys_website/RP_portfolio_pages_square_4_rybcbq"
+    imageRectangle: "v1612374370/cwys_website/RP_portfolio_pages_4_jxrkff"
     imageSquare: "v1612371250/cwys_website/Zenden_portfolio_pages_square_4_dlu5jn"
   - title: "NEED"
     imageRectangle: "v1612374372/cwys_website/RP_portfolio_pages_5_bzmwsg"
     imageSquare: "v1612374588/cwys_website/RP_portfolio_pages_square_5_nogya1"
-  - title: "NEED"
-    imageRectangle: "v1612370853/cwys_website/Zenden_portfolio_pages_6_mqnq4h"
-    imageSquare: "v1612374588/cwys_website/RP_portfolio_pages_square_6_mhhht3"
 paginationPrev:
   - prevLink: "/yo/"
     prevTitle: "Prev Titl"

@@ -72,7 +72,7 @@ h4 {
   font-weight: normal;
   font-style: normal;
 
-  @include apply-utility("font", "header-med");
+  @include apply-utility("font", "header-light");
   @include apply-utility("leading", "tight");
 }
 

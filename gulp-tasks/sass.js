@@ -15,7 +15,7 @@ const criticalStyles = [
   "page.scss",
   "work.scss",
   "contact.scss",
-  "who-we-are.scss",
+  "people.scss",
 ];
 
 // Takes the arguments passed by `dest` and determines where the output file goes

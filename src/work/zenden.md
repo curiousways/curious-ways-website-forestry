@@ -1,7 +1,6 @@
 ---
 title: "Zenden"
 displayOrder: 2
-featured: false
 bodyClass: "bg-work--engenuiti"
 workTitle: "Zenden"
 workSummary: "We took a brand-new business and created a multi-channel brand experience that resonates with three distinct audiences: home buyers, home sellers and real estate agents. Their commitment to the success of the endeavor, and to the quality of the output under tight timelines, was remarkable."
@@ -37,7 +36,7 @@ gallery:
     imageRectangle: "v1612370852/cwys_website/Zenden_portfolio_pages_4_mktweh"
     imageSquare: "v1612371250/cwys_website/Zenden_portfolio_pages_square_4_dlu5jn"
   - title: "NEED"
-    imageRectangle: "v1612371247/cwys_website/Zenden_portfolio_pages_square_5_v14qgo"
+    imageRectangle: "v1612370854/cwys_website/Zenden_portfolio_pages_5_nnjyw6"
     imageSquare: "v1612299324/cwys_website/Notion_portfolio_pages_square_5_dunlnb"
   - title: "NEED"
     imageRectangle: "v1612370853/cwys_website/Zenden_portfolio_pages_6_mqnq4h"

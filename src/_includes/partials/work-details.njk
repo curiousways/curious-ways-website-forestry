@@ -1,23 +1,20 @@
 {% set pageHeaderTitle = workTitle %} 
-{% set workDetailsSummary = workQuote %}
-{% set workDetailsCo = workQuoteSource %}
-{% set workDetailsURL = workURL %}
-{% set workDetailsSite = workWeb %}
 
 {% include "partials/page-header.njk" %}
 
 <article class="[ panel ]">
 
-  <div class="[ work-details ]  [ wrapper ]">
+  <div class="[ work-details ] [ wrapper ]">
+
+  <p class="[ work-details__intro ]">{{ workSummary }}</p>
 
     <div class="[ work-description ]">
 
       <blockqoute class="work-description__quote">
-        <p class="[ lg:measure-short ]">{{ workDetailsSummary }}</p>
+        <p>{{ workQuote }}</p>
       </blockqoute>
 
       <div class="work-description__services">
-
         <ul class="work-description__list">
           {% for item in workServices %}
             <li>
@@ -25,17 +22,16 @@
             </li>
           {% endfor %}
         </ul>
-
       </div>
 
     </div>
 
     <div class="work-description__company">
       <div>
-        {{ workDetailsCo }}
+        {{ workQuoteSource }}
       </div>
       <div class="work-description__website">
-        <a href="{{ workDetailsURL }}">{{ workDetailsSite }}</a>
+        <a href="{{ workURL }}">{{ workWeb }}</a>
       </div>
     </div>
     

@@ -1,5 +1,5 @@
 .nav {
-  @include apply-utility("font", "header-med");
+  @include apply-utility("font", "header-reg");
   line-height: 1;
   margin-top: -#{get-size("400")};
   margin-inline-start: -#{get-size("400")};
@@ -10,12 +10,12 @@
     font-size: get-size("300");
 
     @include media-query("sm") {
-      font-size: get-size("400");
+      font-size: get-size("500");
     }
 
     > * {
       padding-top: get-size("400");
-      padding-inline-start: get-size("400");
+      padding-inline-start: get-size("800");
     }
   }
 
@@ -29,19 +29,23 @@
       color: get-color("purple");
     }
 
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 0.25rem;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      margin-top: 0.45rem;
+      background: #ececec;
+    }
+
     // Adds the fake border to active state items
     &:hover,
     &[data-state="active"],
     &[aria-current="page"] {
       &:before {
-        content: "";
-        display: block;
-        width: 100%;
-        height: 0.25rem;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        margin-top: 0.25rem;
         background: linear-gradient(270deg, #1dd5e1 0%, #7361f5 101.08%);
       }
     }

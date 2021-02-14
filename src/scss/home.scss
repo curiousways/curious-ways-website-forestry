@@ -8,31 +8,31 @@ $outputTokenCSS: false;
 @import "../../node_modules/gorko/gorko.scss";
 
 .bg--home {
-  background-size: cover;
-  background-position: 50% 0;
-
   // Small screens
-  background-image: url("/images/bg_home--sm.jpg");
-
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url("/images/bg_home--sm@2x.jpg");
-  }
+  //   background-image: url("/images/bg_home--right--sml@1x.png"),
+  //     url("/images/bg_home--left--sml@1x.png");
+  //   background-position: top right, bottom left;
+  //   background-size: 400px;
+  //
+  //   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  //     background-image: url("/images/bg_home--right--sml@2x.png"),
+  //       url("/images/bg_home--left--sml@2x.png");
+  //     background-position: top right, bottom left;
+  //     background-size: 400px;
+  //   }
 
   // Medium screens
   @include media-query("md") {
-    background-image: url("/images/bg_home--med.jpg");
+    background-image: url("/images/bg_home--right@1x.png"),
+      url("/images/bg_home--left@1x.png");
+    background-position: top right, bottom left;
+    background-size: 1200px;
 
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url("/images/bg_home--med@2x.jpg");
-    }
-  }
-
-  // Large screens
-  @include media-query("lg") {
-    background-image: url("/images/bg_home--lrg.jpg");
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url("/images/bg_home--lrg@2x.jpg");
+      background-image: url("/images/bg_home--right@2x.png"),
+        url("/images/bg_home--left@2x.png");
+      background-position: top right, bottom left;
+      background-size: 1200px;
     }
   }
 }
@@ -60,6 +60,7 @@ $outputTokenCSS: false;
     max-width: 900px;
   }
 
+  &__intro,
   &__title,
   &__subtitle,
   &__cta {
