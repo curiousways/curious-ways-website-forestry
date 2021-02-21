@@ -1,7 +1,7 @@
 ---
 title: "Pickups"
 displayOrder: 4
-bodyClass: "bg-work--pickups"
+bodyClass: "theme--pickups"
 workTitle: "Pickups"
 workSummary: "We've supported this Brooklyn-based bootstrapped tech start-up from concept to capital raising, creating a stand-out brand with compelling messaging to drive interest from customers, partners and the Venture Capital community."
 workQuote: "B2F joined our journey early on and made us feel like they were enduring the long nights with us. They bring high energy, vast imagination, humility, and open mindedness to all creative discussions. Even beyond creativity, B2F helps you to find your 'why' by guiding you into further discovery and by asking the right questions. No traditional firm would've taken such an approach."

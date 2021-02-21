@@ -39,7 +39,12 @@
     </div>
 
     <div class="[ work-details__website ]">
-      <a href="{{ workURL }}">{{ workWeb }}</a>
+
+
+            {% set linkURL= workURL %}
+            {% set linkText = workWeb %}
+            {% include "partials/link.njk" %}
+
     </div>
   
   </div>
