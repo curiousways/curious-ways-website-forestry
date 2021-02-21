@@ -30,9 +30,10 @@
             <p class="[ work-listing__summary ] [ measure-short ]">
               {{ item.data.workSummary }}
             </p>
-            {% set btnURL= item.url %}
-            {% set btnText= "View project" %}
-            {% include "partials/button.njk" %} 
+            {% set linkURL= item.url %}
+            {% set linkText = "View Project" %}
+            {% set linkClass = "font-header-med text-500" %}
+            {% include "partials/link.njk" %}
           </figcaption>
         </figure>
         {% endfor %}
