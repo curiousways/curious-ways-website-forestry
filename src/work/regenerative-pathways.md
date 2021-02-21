@@ -1,7 +1,7 @@
 ---
 title: "Regenerative Pathways"
 displayOrder: 3
-bodyClass: "bg-work--regenerative-pathways"
+bodyClass: "theme--regenerative-pathways"
 workTitle: "Regenerative Pathways"
 workSummary: "Neverland brought us in to build their client's B2B website promoting regenerative business practices. As the project progressed, the brief expanded to incorporate branding, UX strategy and UI design."
 workQuote: "Stunning work!"

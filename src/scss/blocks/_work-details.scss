@@ -34,6 +34,10 @@
       margin-bottom: 0;
     }
 
+    @include media-query("lg") {
+      margin-left: get-size("800");
+    }
+
     ul {
       @media (min-width: 450px) {
         max-width: 400px;
@@ -43,7 +47,6 @@
       }
 
       @include media-query("lg") {
-        margin-left: get-size("800");
         margin-right: get-size("800");
       }
 
@@ -101,15 +104,13 @@
       grid-column-start: 2;
     }
 
-    a:link,
-    a:visited {
-      @include media-query("lg") {
-        margin-left: get-size("800");
-      }
+    @include media-query("lg") {
+      margin-left: get-size("800");
+    }
+
+    a {
       @include apply-utility("font", "header-med");
       text-decoration: none;
     }
-    color: get-color("purple");
-    display: block;
   }
 }
