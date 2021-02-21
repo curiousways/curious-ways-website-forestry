@@ -1,0 +1,74 @@
+@mixin theme(
+  $color,
+  $grad-deg: 1.15deg,
+  $grad-end-color: #fffff9,
+  $grad-end-percentage: 83%
+) {
+  background: linear-gradient(
+    $grad-deg,
+    $color 1%,
+    $grad-end-color $grad-end-percentage
+  );
+  .site-logo svg path {
+    fill: $color;
+  }
+  .work-details__website .text-link-wrap a {
+    background-image: linear-gradient(
+      $grad-deg,
+      $color 1%,
+      $grad-end-color $grad-end-percentage
+    );
+  }
+  .work-details__quote:before {
+    color: $color;
+  }
+
+  .site-foot {
+    color: #fff;
+    svg {
+      fill: #fff;
+
+      &:hover {
+        fill: get-color("black");
+      }
+    }
+
+    a {
+      color: #fff;
+
+      &:hover {
+        color: get-color("black");
+      }
+    }
+  }
+
+  .work-pagination__items {
+    color: #fff;
+
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.theme {
+  &--zenden {
+    @include theme(#7760f8);
+  }
+
+  &--regenerative-pathways {
+    @include theme(#50265a);
+  }
+
+  &--engenuiti {
+    @include theme(#ff028b);
+  }
+
+  &--pickups {
+    @include theme(#72d118);
+  }
+
+  &--notion {
+    @include theme(#131413);
+  }
+}

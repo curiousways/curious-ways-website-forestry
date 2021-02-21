@@ -6,14 +6,20 @@
       {% for item in paginationPrev %}
         <div>
           <small>Previous Project</small>
-          <a href="{{ item.prevLink }}">{{ item.prevTitle }}</a>
+          {% set linkURL= item.prevLink %}
+          {% set linkText = item.prevTitle %}
+          {% set linkTheme = "links-pagination" %}
+          {% include "partials/link.njk" %}
         </div>
       {% endfor %}
 
       {% for item in paginationNext %}
         <div class="text-right">
           <small>Next Project</small>
-          <a href="{{ item.nextLink }}">{{ item.nextTitle }}</a>
+          {% set linkURL= item.nextLink %}
+          {% set linkText = item.nextTitle %}
+          {% set linkTheme = "links-pagination" %}
+          {% include "partials/link.njk" %}
         </div>
       {% endfor %}
 
