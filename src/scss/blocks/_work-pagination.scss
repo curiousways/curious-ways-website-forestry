@@ -6,7 +6,7 @@
     justify-content: space-between;
 
     a {
-      @include apply-utility("font", "header-med");
+      @include apply-utility("font", "header-light");
       font-size: get-size("600");
       text-decoration: none;
     }

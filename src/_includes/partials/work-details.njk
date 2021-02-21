@@ -8,50 +8,42 @@
 
     <p class="[ work-details__intro ]">{{ workSummary }}</p>
 
-
-  <div class="[ work-details__about ]">
-
-    <div class="[ work-details__quote ]">
-
-      <blockqoute class="[ work-description__quote ]">
-        <p>{{ workQuote }}</p>
-      </blockqoute>
-
-    </div>
-
-    <div class="[ work-details__services ]">
-
-      <ul>
-        {% for item in workServices %}
-          <li>
-            <span>{{ item.service }}</span>
-          </li>
-        {% endfor %}
-      </ul>
-
-    </div>
-
-    <div class="[ work-details_company ]">
-      <div>
-        {{ workQuoteSource }}
-      </div>
-
-    </div>
-
-    <div class="[ work-details__website ]">
-
-
-            {% set linkURL= workURL %}
-            {% set linkText = workWeb %}
-            {% include "partials/link.njk" %}
-
-    </div>
+    <div class="[ work-details__about ]">
   
-  </div>
-
-
-
-
+      <div class="[ work-details__quote ]">
+  
+        <blockqoute class="[ work-description__quote ]">
+          <p>{{ workQuote }}</p>
+        </blockqoute>
+  
+      </div>
+  
+      <div class="[ work-details__services ]">
+  
+        <ul>
+          {% for item in workServices %}
+            <li>
+              <span>{{ item.service }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+  
+      </div>
+  
+      <div class="[ work-details_company ]">
+        <div>
+          {{ workQuoteSource }}
+        </div>
+  
+      </div>
+  
+      <div class="[ work-details__website ]">
+        {% set linkURL= workURL %}
+        {% set linkText = workWeb %}
+        {% include "partials/link.njk" %}
+      </div>
+    
+    </div>
 
   </div>
 
