@@ -9,7 +9,7 @@ workQuoteSource: "Ron Davidson, SVP, The D. E. Shaw Group"
 workURL: "https://usezenden.com"
 workWeb: "usezenden.com"
 hero:
-  image: "v1614435879/cwys_website/zenden_portfolio_square_v3_w5vuvr"
+  image: "v1614435874/cwys_website/zenden_portfolio_square_v1_kitzps"
   imageAlt: "Zenden"
 servicesList:
   - service: "Brand strategy"
