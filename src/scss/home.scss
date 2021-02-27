@@ -47,8 +47,8 @@ $outputTokenCSS: false;
     padding: 0;
   }
 
-  @media (min-width: 72em) and (min-height: 800px) {
-    transform: translateY(-3.5rem);
+  @media (min-width: 48em) and (min-height: 800px) {
+    transform: translateY(-5rem);
   }
 
   @include media-query("xxl") {
