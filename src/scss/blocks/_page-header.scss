@@ -1,6 +1,10 @@
 .page-header {
   margin: get-size("800") auto;
 
+  @include media-query("md") {
+    margin: 0 auto get-size("800");
+  }
+
   &__summary {
     @include apply-utility("font", "header-light");
     font-size: get-size("400");
