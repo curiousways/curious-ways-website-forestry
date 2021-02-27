@@ -8,19 +8,6 @@ $outputTokenCSS: false;
 @import "../../node_modules/gorko/gorko.scss";
 
 .bg--home {
-  // Small screens
-  //   background-image: url("/images/bg_home--right--sml@1x.png"),
-  //     url("/images/bg_home--left--sml@1x.png");
-  //   background-position: top right, bottom left;
-  //   background-size: 400px;
-  //
-  //   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  //     background-image: url("/images/bg_home--right--sml@2x.png"),
-  //       url("/images/bg_home--left--sml@2x.png");
-  //     background-position: top right, bottom left;
-  //     background-size: 400px;
-  //   }
-
   // Medium screens
   @include media-query("md") {
     background-image: url("/images/bg_home--right@1x.png"),
@@ -43,20 +30,25 @@ $outputTokenCSS: false;
 
   @media (min-width: 600px) and (min-height: 700px) {
     // TODO change pixel value when height of footer and header is known;
-    // Header = 140px
-    // Footer = 101px
+    // Header = 200px
+    // Footer = 100px
     height: calc(
-      100vh - 241px
+      100vh - 300px
     ); // 100vh minus the height of the footer + height of the header. Heights based on content + padding totals
   }
 
   padding: get-size("800") 0;
 
   @include media-query("md") {
-    max-width: 600px;
+    max-width: 700px;
+    padding: 0;
   }
 
-  @include media-query("xl") {
+  @include media-query("lg") {
+    transform: translateY(-3.5rem);
+  }
+
+  @include media-query("xxl") {
     max-width: 900px;
   }
 
@@ -64,9 +56,13 @@ $outputTokenCSS: false;
   &__title,
   &__subtitle,
   &__cta {
-    font-size: get-size("600");
+    font-size: get-size("500");
 
-    @include media-query("xl") {
+    @include media-query("md") {
+      font-size: get-size("600");
+    }
+
+    @include media-query("xxl") {
       font-size: get-size("700");
     }
   }
