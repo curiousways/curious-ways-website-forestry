@@ -54,7 +54,11 @@ body {
 
 a:not([class]) {
   color: currentColor;
-  text-decoration-color: get-color("purple");
+  text-decoration-color: get-color("orange");
+}
+
+a:not([class]):hover {
+  text-decoration-color: get-color("black");
 }
 
 // :focus {
