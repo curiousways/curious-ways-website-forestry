@@ -1,16 +1,16 @@
 ---
-title: "Engenuiti"
-displayOrder: 3
-bodyClass: "theme--engenuiti"
-workTitle: "Engenuiti"
+title: "Teamstand"
+displayOrder: 8
+bodyClass: "theme--maxlight"
+workTitle: "Teamstand"
 workSummary: "We helped this firm of structural and civil engineers celebrate their 10th anniversary with new branding and website."
 workQuote: "We’ve thoroughly enjoyed working with CW. They clearly invested heavily in developing an excellent understanding of us and our practice, helping us understand our own needs and working with us to develop our brand identity. We’ve been in expert hands throughout whilst enjoying participating fully in their creative process."
 workQuoteSource: "Nathan Wheatly, Director"
-workURL: "https://engenuiti.com"
-workWeb: "engenuiti.com"
+workURL: "https://www.maxlight.co.uk"
+workWeb: "maxlight.co.uk"
 hero:
-  image: "v1614438855/cwys_website/Engenuiti_portfolio_square_2_HERO_h0dajb"
-  imageAlt: "Engenuiti"
+  image: "v1614444261/cwys_website/teamstand_portfolio_square_v1_HERO_za20df"
+  imageAlt: "Teamstand"
 servicesList:
   - service: "Art Direction"
   - service: "Branding"
@@ -22,14 +22,14 @@ servicesList:
   - service: "Website Design"
 gallery:
   - title: "NEED"
-    imageRectangle: "v1614438777/cwys_website/Engenuiti_portfolio_rectangle_1_xdyxyo"
-    imageSquare: "v1614438834/cwys_website/Engenuiti_portfolio_square_1_zrfquh"
+    imageRectangle: "v1614444053/cwys_website/teamstand_portfolio_rectangle_v1_pastc2"
+    imageSquare: "v1614444261/cwys_website/teamstand_portfolio_square_v1_HERO_za20df"
   - title: "NEED"
-    imageRectangle: "v1614438795/cwys_website/Engenuiti_portfolio_rectangle_2_ymzimg"
-    imageSquare: "v1614438855/cwys_website/Engenuiti_portfolio_square_2_HERO_h0dajb"
+    imageRectangle: "v1614444121/cwys_website/teamstand_portfolio_rectangle_v2_hk3ngs"
+    imageSquare: "v1614444329/cwys_website/teamstand_portfolio_square_v2_c1cs3v"
   - title: "NEED"
-    imageRectangle: "v1614438814/cwys_website/Engenuiti_portfolio_rectangle_3_kpqkc9"
-    imageSquare: "v1614438877/cwys_website/Engenuiti_portfolio_square_3_m7awsc"
+    imageRectangle: "v1614444189/cwys_website/teamstand_portfolio_rectangle_v3_hvnner"
+    imageSquare: "v1614444400/cwys_website/teamstand_portfolio_square_v3_ejbe3q"
 paginationPrev:
   - prevLink: "/yo/"
     prevTitle: "Prev Titl"
