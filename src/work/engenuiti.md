@@ -1,6 +1,6 @@
 ---
 title: "Engenuiti"
-displayOrder: 3
+displayOrder: 5
 bodyClass: "theme--engenuiti"
 workTitle: "Engenuiti"
 workSummary: "We helped this firm of structural and civil engineers celebrate their 10th anniversary with new branding and website."

@@ -1,6 +1,6 @@
 ---
 title: "Maxlight"
-displayOrder: 7
+displayOrder: 4
 bodyClass: "theme--maxlight"
 workTitle: "Maxlight"
 workSummary: "We helped this firm of structural and civil engineers celebrate their 10th anniversary with new branding and website."

@@ -1,6 +1,6 @@
 ---
 title: "Zenden"
-displayOrder: 2
+displayOrder: 1
 bodyClass: "theme--zenden"
 workTitle: "Zenden"
 workSummary: "We took a brand-new business and created a multi-channel brand experience that resonates with three distinct audiences: home buyers, home sellers and real estate agents. Their commitment to the success of the endeavor, and to the quality of the output under tight timelines, was remarkable."
@@ -9,7 +9,7 @@ workQuoteSource: "Ron Davidson, SVP, The D. E. Shaw Group"
 workURL: "https://usezenden.com"
 workWeb: "usezenden.com"
 hero:
-  image: "v1614435879/cwys_website/zenden_portfolio_square_v3_w5vuvr"
+  image: "v1614435874/cwys_website/zenden_portfolio_square_v1_kitzps"
   imageAlt: "Zenden"
 servicesList:
   - service: "Brand strategy"
