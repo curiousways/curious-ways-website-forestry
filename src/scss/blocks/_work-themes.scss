@@ -71,4 +71,16 @@
   &--notion {
     @include theme(#131413);
   }
+
+  &--entrade {
+    @include theme(#5cbf9b);
+  }
+
+  &--teamstand {
+    @include theme(#ec671b);
+  }
+
+  &--maxlight {
+    @include theme(#e5bcb5);
+  }
 }

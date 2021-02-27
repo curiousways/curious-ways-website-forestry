@@ -1,7 +1,7 @@
 ---
 title: "Teamstand"
 displayOrder: 8
-bodyClass: "theme--maxlight"
+bodyClass: "theme--teamstand"
 workTitle: "Teamstand"
 workSummary: "We helped this firm of structural and civil engineers celebrate their 10th anniversary with new branding and website."
 workQuote: "We’ve thoroughly enjoyed working with CW. They clearly invested heavily in developing an excellent understanding of us and our practice, helping us understand our own needs and working with us to develop our brand identity. We’ve been in expert hands throughout whilst enjoying participating fully in their creative process."
