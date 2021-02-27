@@ -4,8 +4,8 @@ displayOrder: 6
 bodyClass: "theme--entrade"
 workTitle: "EnTrade"
 workSummary: "NEED"
-workQuote: "NEED"
-workQuoteSource: "NEED"
+workQuote: "Curious Ways stood out for their ability to understand our complex business needs and create high-quality branded content across a wide range of media formats. We struggled for a long time to articulate our brand value proposition in a clear and consistent voice. Curious Ways helped us to say what we’d been struggling to say all along and delivered a website and brand to match. This has resulted in much wider interest from farmers, and gives us a strong base on which to build over the coming years."
+workQuoteSource: "James Peacock, Product Manager"
 workURL: ""
 workWeb: "NEED"
 hero:

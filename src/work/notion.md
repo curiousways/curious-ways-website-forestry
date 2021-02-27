@@ -4,7 +4,7 @@ displayOrder: 4
 bodyClass: "theme--notion"
 workTitle: "Notion"
 workSummary: "We re-launched Notion’s digital offerings. Helping to double their online readership in less than a year."
-workQuote: "Working with Curious Ways has really helped us understand and develop our brand identity, website and full digital potential more than any previous web development agencies we'd previously worked with. After our relaunch we doubled our digital readership in under a year. Its no coincidence this is partly due to Back To Front's knowledge and creativity within the world of the web."
+workQuote: "Working with Curious Ways has really helped us understand and develop our brand identity, website and full digital potential more than any previous web development agencies we'd previously worked with. After our relaunch we doubled our digital readership in under a year. Its no coincidence this is partly due to their knowledge and creativity within the world of the web."
 workQuoteSource: "Nicholas Douglas, MD, Notion"
 workURL: "https://notion.online"
 workWeb: "notion.online"

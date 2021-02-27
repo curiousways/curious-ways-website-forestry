@@ -4,7 +4,7 @@ displayOrder: 3
 bodyClass: "theme--engenuiti"
 workTitle: "Engenuiti"
 workSummary: "We helped this firm of structural and civil engineers celebrate their 10th anniversary with new branding and website."
-workQuote: "We’ve thoroughly enjoyed working with CW. They clearly invested heavily in developing an excellent understanding of us and our practice, helping us understand our own needs and working with us to develop our brand identity. We’ve been in expert hands throughout whilst enjoying participating fully in their creative process."
+workQuote: "They clearly invested heavily in developing an excellent understanding of us and our practice, helping us understand our own needs and working with us to develop our brand identity.  We’ve been in expert hands throughout whilst enjoying participating fully in their creative process."
 workQuoteSource: "Nathan Wheatly, Director"
 workURL: "https://engenuiti.com"
 workWeb: "engenuiti.com"

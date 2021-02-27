@@ -4,7 +4,7 @@ displayOrder: 2
 bodyClass: "theme--zenden"
 workTitle: "Zenden"
 workSummary: "We took a brand-new business and created a multi-channel brand experience that resonates with three distinct audiences: home buyers, home sellers and real estate agents. Their commitment to the success of the endeavor, and to the quality of the output under tight timelines, was remarkable."
-workQuote: "Curious Ways took complex business ideas and turned them into beautiful and easy to understand branded solutions, with all the supporting physical and digital marketing materials."
+workQuote: "Curious Ways took a business idea with a complex product behind it and turned it into a beautiful and easy to understand branded solution – with all the supporting physical and digital marketing materials. Their commitment to the success of the endeavour, and to the quality of the output under tight timelines, was remarkable."
 workQuoteSource: "Ron Davidson, SVP, The D. E. Shaw Group"
 workURL: "https://usezenden.com"
 workWeb: "usezenden.com"
