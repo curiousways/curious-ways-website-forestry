@@ -1,6 +1,6 @@
 ---
-title: 'A Curious Partnership'
-layout: 'layouts/people.njk'
+title: "Our greatest asset"
+layout: "layouts/people.njk"
 ---
 
-We’re a small company with ambitions to stay small. At the heart of the business are the four partners:
+Actually, our only asset. We're a people business, at the heart of which are five partners:
