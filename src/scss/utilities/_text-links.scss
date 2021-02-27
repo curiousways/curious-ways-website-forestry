@@ -1,3 +1,34 @@
+/* Inline Links */
+
+.text-link-grad {
+  @include apply-utility("font", "header-med");
+  font-style: italic;
+  transition: var(--link-trans);
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  color: get-color("black");
+  z-index: 10;
+
+  &:hover {
+    color: get-color("orange");
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    width: 105%;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: -3px;
+    background-image: var(--link-grad);
+    z-index: -1;
+  }
+}
+
+/* Stand Alone Links*/
+
 .text-link-wrap {
   position: relative;
   display: inline-block;
