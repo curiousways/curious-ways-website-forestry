@@ -14,19 +14,16 @@ $outputTokenCSS: false;
 }
 
 .bg--home {
-  // Medium screens
-  @include media-query("md") {
-    background-image: url("/images/bg_home--right@1x.png"),
-      url("/images/bg_home--left@1x.png");
+  background-image: url("/images/bg_home--right@1x.png"),
+    url("/images/bg_home--left@1x.png");
+  background-position: top right, bottom left;
+  background-size: 1200px;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("/images/bg_home--right@2x.png"),
+      url("/images/bg_home--left@2x.png");
     background-position: top right, bottom left;
     background-size: 1200px;
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url("/images/bg_home--right@2x.png"),
-        url("/images/bg_home--left@2x.png");
-      background-position: top right, bottom left;
-      background-size: 1200px;
-    }
   }
 }
 
