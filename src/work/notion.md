@@ -1,6 +1,6 @@
 ---
 title: "Notion"
-displayOrder: 4
+displayOrder: 2
 bodyClass: "theme--notion"
 workTitle: "Notion"
 workSummary: "We re-launched Notion’s digital offerings. Helping to double their online readership in less than a year."

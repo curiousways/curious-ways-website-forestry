@@ -1,6 +1,6 @@
 ---
 title: "Teamstand"
-displayOrder: 8
+displayOrder: 6
 bodyClass: "theme--teamstand"
 workTitle: "Teamstand"
 workSummary: "We helped this firm of structural and civil engineers celebrate their 10th anniversary with new branding and website."

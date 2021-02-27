@@ -1,6 +1,6 @@
 ---
 title: "EnTrade"
-displayOrder: 6
+displayOrder: 8
 bodyClass: "theme--entrade"
 workTitle: "EnTrade"
 workSummary: "NEED"
