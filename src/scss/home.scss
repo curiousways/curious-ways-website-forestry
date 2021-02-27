@@ -7,6 +7,12 @@ $outputTokenCSS: false;
 // Next: pull in gorko for design tokens
 @import "../../node_modules/gorko/gorko.scss";
 
+@import "utilities/visually-hidden";
+
+.page-home .site-head__brand {
+  @extend .visually-hidden;
+}
+
 .bg--home {
   // Medium screens
   @include media-query("md") {
@@ -28,7 +34,7 @@ $outputTokenCSS: false;
   display: flex;
   align-items: center;
 
-  @media (min-width: 600px) and (min-height: 700px) {
+  @media (min-width: 600px) and (min-height: 800px) {
     // TODO change pixel value when height of footer and header is known;
     // Header = 200px
     // Footer = 100px
@@ -44,7 +50,7 @@ $outputTokenCSS: false;
     padding: 0;
   }
 
-  @include media-query("lg") {
+  @media (min-width: 72em) and (min-height: 800px) {
     transform: translateY(-3.5rem);
   }
 
