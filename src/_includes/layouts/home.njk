@@ -14,7 +14,7 @@
 	<article class="home">
 
 		<div class="[ home__content ] [ flow ] [ line-break--xl ]">
-			<span class="home__intro font-header-light weight-light">{{ home.intro }}</span>
+			<span class="home__intro font-header-light weight-light">{{ home.intro | safe }}</span>
 			<h1 class="home__title font-header-light weight-light">{{ home.title | safe  }}</h1>
 			<h2 class="home__subtitle font-header-light weight-light">{{ home.subtitle  | safe }}</h2>
 			<p class="home__cta font-header-light">{{ home.cta  | safe }}</p>
