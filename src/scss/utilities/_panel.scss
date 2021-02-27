@@ -1,6 +1,5 @@
-// Adds consitent space and padding for each full panel section
+// Adds consistent space and padding for each full panel section
 .panel {
-  background: purple;
   margin: get-size("700") 0;
 
   @include media-query("md") {

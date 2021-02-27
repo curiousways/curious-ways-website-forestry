@@ -1,6 +1,4 @@
 {
   "title": "Always looking for talent",
-  "summary": "We work with a broad range of partners, interns and circus freaks. So if you have something to share then",
-  "buttonText": "give us a shout.",
-  "buttonUrl": "/contact"
+  "summary": "We work with a broad range of partners, interns and circus freaks. So if you have something to share then <a class='text-link-grad' href='/contact'>give us a shout</a>."
 }
