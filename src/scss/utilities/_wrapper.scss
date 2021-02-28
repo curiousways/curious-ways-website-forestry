@@ -8,7 +8,7 @@
   padding: 0 get-size("600");
   margin-left: auto;
   margin-right: auto;
-  position: relative;
+  // position: relative; // NAV CHECK
 
   @include media-query("md") {
     padding: 0 get-size("800");

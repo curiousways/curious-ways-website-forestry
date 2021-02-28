@@ -1,4 +1,27 @@
-<a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
+<header class="site-head" role="banner">
+  <a href="#main-content" class="skip-link">Skip to content</a>
+  <div class="wrapper">
+    <div class="site-head__inner">
+      <a href="/" aria-label="{{ site.name }} - Home" class="site-head__brand">
+        {% include "partials/brand.njk" %}
+      </a>
+      <burger-menu max-width="600" style="margin-left: auto">
+        <nav class="[ nav ] [ site-head__nav ]" aria-label="Primary">
+          <ul class="nav__list">
+            {% for item in navigation.items %}
+              {% set linkURL= item.url %}
+              {% set linkText = item.text %}
+              {% set linkData = helpers.getLinkActiveState(item.url, page.url) | safe %}
+              <li>{% include "partials/link.njk" %}</li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </burger-menu>
+    </div>
+  </div>
+</header>
+
+{# <a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
 <header role="banner" class="site-head">
   <div class="site-head__inner">
     <a href="/" aria-label="{{ site.name }} - Home" class="site-head__brand">
@@ -15,4 +38,4 @@
       </ul>
     </nav>
   </div>
-</header>
+</header> #}

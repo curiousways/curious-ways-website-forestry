@@ -9,8 +9,18 @@ $outputTokenCSS: false;
 
 @import "utilities/visually-hidden";
 
-.page-home .site-head__brand {
-  @extend .visually-hidden;
+@include media-query("md") {
+  .page-home .site-head__brand {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
 }
 
 .bg--home {
@@ -40,11 +50,11 @@ $outputTokenCSS: false;
     ); // 100vh minus the height of the footer + height of the header. Heights based on content + padding totals
   }
 
-  padding: get-size("800") 0;
+  padding-bottom: get-size("800");
 
   @include media-query("md") {
     max-width: 700px;
-    padding: 0;
+    // padding: 0;
   }
 
   @media (min-width: 48em) and (min-height: 800px) {
