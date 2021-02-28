@@ -21,19 +21,19 @@ servicesList:
   - service: "Website Build"
   - service: "Website Design"
 gallery:
-  - title: "NEED"
+  - title: "Branding"
     imageRectangle: "v1614438777/cwys_website/Engenuiti_portfolio_rectangle_1_xdyxyo"
     imageSquare: "v1614438834/cwys_website/Engenuiti_portfolio_square_1_zrfquh"
-  - title: "NEED"
+  - title: "Website Design"
     imageRectangle: "v1614438795/cwys_website/Engenuiti_portfolio_rectangle_2_ymzimg"
     imageSquare: "v1614438855/cwys_website/Engenuiti_portfolio_square_2_HERO_h0dajb"
-  - title: "NEED"
+  - title: "Print Design"
     imageRectangle: "v1614438814/cwys_website/Engenuiti_portfolio_rectangle_3_kpqkc9"
     imageSquare: "v1614438877/cwys_website/Engenuiti_portfolio_square_3_m7awsc"
 paginationPrev:
-  - prevLink: "/yo/"
-    prevTitle: "Prev Titl"
+  - prevLink: "/work/teamstand/"
+    prevTitle: "Maxlight"
 paginationNext:
-  - nextLink: "/sssyo/"
-    nextTitle: "Nexcrt Titl"
+  - nextLink: "/work/teamstand/"
+    nextTitle: "Teamstand"
 ---
