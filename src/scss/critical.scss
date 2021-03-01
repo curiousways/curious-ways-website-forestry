@@ -64,7 +64,7 @@ a:not([class]):hover {
 }
 
 // :focus {
-//   outline: 2px dashed get-color("black");
+//   outline: 1px dashed currentColor;
 //   outline-offset: 0.25rem;
 // }
 
@@ -102,6 +102,7 @@ h4 {
 @import "blocks/site-foot";
 @import "blocks/site-head";
 @import "blocks/skip-link";
+@import "blocks/burger-menu";
 
 // Import utilities
 @import "utilities/auto-grid";

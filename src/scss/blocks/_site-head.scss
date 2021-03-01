@@ -1,12 +1,10 @@
 .site-head {
-  max-width: 70rem;
-  margin: auto;
-  padding: get-size("900") get-size("300") 0;
-  position: relative;
-  z-index: 1; // adjusting for intro video
+  .wrapper {
+    padding: get-size("900") get-size("600");
 
-  @include media-query("md") {
-    padding: get-size("900") get-size("800");
+    @include media-query("md") {
+      padding: get-size("900") get-size("800");
+    }
   }
 
   &__inner {
@@ -17,23 +15,20 @@
   }
 
   &__brand {
+    display: block;
     flex-shrink: 0;
     margin-inline-end: get-size("600"); // Prevents nav bunching up to the logo
 
-    img {
-      display: block;
-      height: 58px;
-      width: 245px;
+    svg {
+      max-width: 180px;
 
-      @include media-query("lg") {
-        height: 73px;
-        width: 307px;
+      @media (min-width: 330px) {
+        max-width: 200px;
+      }
+
+      @media (min-width: 420px) {
+        max-width: 100%;
       }
     }
-  }
-
-  &__nav {
-    padding: get-size("300") 0;
-    margin-left: auto;
   }
 }
