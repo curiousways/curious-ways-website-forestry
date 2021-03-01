@@ -12,12 +12,12 @@ hero:
   image: "v1614436848/cwys_website/RP_portfolio_pages_square_1_c0cqpp"
   imageAlt: "Regenerative Pathways"
 servicesList:
+  - service: "Animation"
   - service: "Brand design"
   - service: "UX strategy"
-  - service: "Website design & build"
+  - service: "Hosting & maintenance"
   - service: "Illustration"
-  - service: "Animation"
-  - service: "Hosting & Maintenance"
+  - service: "Website design & build"
 gallery:
   - title: "Brand design"
     imageRectangle: "v1614436903/cwys_website/RP_portfolio_rectangle_1_HERO_jsodsr"

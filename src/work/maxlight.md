@@ -14,9 +14,8 @@ hero:
 servicesList:
   - service: "UX Strategy"
   - service: "Website design & build"
-  - service: "Bespoke Wordpress"
 gallery:
-  - title: "?"
+  - title: ""
     imageRectangle: "v1614442988/cwys_website/Maxlight_portfolio_rectangle_v1_jqmy7t"
     imageSquare: "v1614443186/cwys_website/Maxlight_portfolio_sqaure_v1_ebvlis"
   - title: "Website design & build"

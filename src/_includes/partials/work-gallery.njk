@@ -10,12 +10,13 @@
         <div class="[ work-gallery__media ]">
           {% include "partials/work-img.njk" %}
         </div>
-        
-        <figcaption class="[ work-gallery__content ]">
-          <h2 class="[ work-gallery__heading ] [ font-base text-400 ]">
-            {{ imageTitle }}
-          </h2>
-        </figcaption>
+        {% if imageTitle %}
+          <figcaption class="[ work-gallery__content ]">
+            <h2 class="[ work-gallery__heading ] [ font-base text-400 ]">
+              {{ imageTitle }}
+            </h2>
+          </figcaption>
+        {% endif %}
       </div>
 
       {% if item.imageSecond %}
