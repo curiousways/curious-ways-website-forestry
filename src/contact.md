@@ -1,5 +1,5 @@
 ---
-title: "Curious? Get in touch"
+title: "Get in touch"
 layout: "layouts/contact.njk"
 ---
 

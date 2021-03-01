@@ -2,8 +2,10 @@
   margin-top: get-size("major");
 
   &__items {
-    display: flex;
-    justify-content: space-between;
+    @include media-query("md") {
+      display: flex;
+      justify-content: space-between;
+    }
 
     a {
       @include apply-utility("font", "header-light");
@@ -12,12 +14,22 @@
     }
 
     small {
+      display: block;
       margin-bottom: get-size("300");
     }
 
-    > div {
-      > * {
-        display: block;
+    &__next {
+      margin-top: get-size("800");
+
+      @include media-query("md") {
+        margin-top: 0;
+        text-align: right;
+      }
+    }
+
+    .links-pagination a {
+      @media (max-width: 25em) {
+        font-size: get-size("500");
       }
     }
   }
