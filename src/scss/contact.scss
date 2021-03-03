@@ -28,19 +28,6 @@ $outputTokenCSS: false;
       margin-top: get-size("600");
     }
 
-    @include media-query("md") {
-      flex-direction: row;
-      max-width: 50ch;
-
-      > * + * {
-        margin-top: 0;
-      }
-
-      > * {
-        flex: 1 0 auto;
-      }
-    }
-
     @include media-query("lg") {
       flex-direction: column;
       max-width: 70ch;
