@@ -7,8 +7,10 @@
 
   img {
     margin: auto;
+    box-shadow: -1px 0px 20px 5px rgba(0, 0, 0, 0.05);
+
     @include media-query("sm") {
-      padding: 0 get-size("400");
+      margin: 0 get-size("400");
     }
   }
 
