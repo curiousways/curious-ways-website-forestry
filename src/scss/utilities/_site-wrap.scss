@@ -2,8 +2,8 @@
   overflow-x: hidden;
   // position: relative; // NAV CHECK
   // TODO change pixel value when height of footer is known;
-  // Footer height = 100px
+  // Footer height = 78px
   min-height: calc(
-    100vh - 100px
+    100vh - 78px
   ); // Height of the footer based on content and padding rules
 }
