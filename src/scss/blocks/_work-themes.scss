@@ -27,25 +27,6 @@
     background-color: $color;
   }
 
-  .site-foot {
-    color: #fff;
-    svg {
-      fill: #fff;
-
-      &:hover {
-        fill: get-color("black");
-      }
-    }
-
-    a {
-      color: #fff;
-
-      &:hover {
-        color: get-color("black");
-      }
-    }
-  }
-
   .work-pagination__items {
     color: #fff;
 
