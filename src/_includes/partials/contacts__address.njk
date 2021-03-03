@@ -13,8 +13,10 @@
     </div>
   </div>  
 
-  <div class="[ address__telephone ]">
-    <span class="[ font-header-light ]" itemprop="telephone">{{ telephone }}</span>
-  </div>
+  {% if telephone %}
+    <div class="[ address__telephone ]">
+      <span class="[ font-header-light ]" itemprop="telephone">{{ telephone }}</span>
+    </div>
+  {% endif %}
 
 </div>
