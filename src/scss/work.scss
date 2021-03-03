@@ -24,6 +24,10 @@ $outputTokenCSS: false;
     grid-template-columns: repeat(2, 1fr);
   }
 
+  &__media {
+    box-shadow: var(--box-shadow);
+  }
+
   &__summary {
     margin-bottom: get-size("500");
   }
