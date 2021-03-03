@@ -1,6 +1,6 @@
 <article class="[ work-gallery ] [ flow flow-space-800 ] [ animate__animated animate__slideInUp animate__faster ]">
   {% for item in gallery %}
-    <figure class="[ {% if item.style %}{{ item.style }}{% else %}work-gallery__item{% endif %} ]">
+    <figure class="[ work-gallery__item ]">
 
       {% set imageTitle = item.title %}
       {% set imageRectangle = item.imageRectangle %}
@@ -18,13 +18,6 @@
           </figcaption>
         {% endif %}
       </div>
-
-      {% if item.imageSecond %}
-        {% set imageURL = item.imageSecond %}
-        {% set imageAlt = item.imageSecondAlt %}
-        {% set imageTitle = item.titleSecond %}
-        {% include "partials/work-img.njk" %}
-      {% endif %}
 
     </figure>
   {% endfor %}
