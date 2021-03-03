@@ -1,5 +1,6 @@
 .work-pagination {
   margin-top: get-size("major");
+  margin-bottom: get-size("major");
 
   &__items {
     @include media-query("md") {
