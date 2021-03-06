@@ -5,19 +5,11 @@
     <div class="[ site-foot__inner ] [ text-300 font-header-reg ]">
 
       <div class="[ site-foot__inner__contacts ]">
-        <ul>
-          <li><a href="mailto:{{ site.email }}">Email us</a></li>
-          <li><a href="tel:{{ site.phone }}">Call us</a></li>
-          <li><a href="{{ site.calendy }}" target="_blank">Book a meeting</a></li>
-        </ul>
+        {% include "partials/nav-secondary.njk" %}
       </div>
   
       <div class="[ site-foot__inner__social ]">
-        <ul>
-          <li><a href="{{ site.twitter }}"><span class="visually-hidden">Visit our Twitter profile</span> {% include "partials/twitter.svg" %}</a></li>
-          <li><a href="{{ site.instagram }}"><span class="visually-hidden">Visit our Instagram profile</span> {% include "partials/instagram.svg" %}</a></li>
-          <li><a href="{{ site.linkedin }}"><span class="visually-hidden">Visit our LinkedIn profile</span> {% include "partials/linkedin.svg" %}</a></li>
-        </ul>
+        {% include "partials/nav-social.njk" %}
       </div>
 
     </div>
