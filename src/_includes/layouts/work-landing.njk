@@ -29,11 +29,13 @@
           <p class="[ work-listing__summary ] [ measure-short ]">
             {{ item.data.workSummary }}
           </p>
+        </figcaption>
+        <div class="work-listing__link">
           {% set linkURL= item.url %}
           {% set linkText = "View Project" %}
           {% set linkClass = "font-header-med text-500" %}
           {% include "partials/link.njk" %}
-        </figcaption>
+        </div>
       </figure>
       {% endfor %}
     </article>
