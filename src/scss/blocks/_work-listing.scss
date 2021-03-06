@@ -1,0 +1,29 @@
+.work-listing {
+  margin-bottom: get-size("800");
+  display: grid;
+  grid-gap: var(--auto-grid-gap, get-size("900"))
+    var(--auto-grid-gap, get-size("500"));
+  grid-template-columns: 1fr;
+
+  @include media-query("md") {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__media {
+    box-shadow: var(--box-shadow);
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link {
+    margin-top: auto;
+    padding-top: get-size("700");
+  }
+
+  &__summary {
+    margin-bottom: get-size("500");
+  }
+}

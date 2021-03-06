@@ -13,6 +13,44 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
+    &__nav-secondary ul,
+    &__social ul {
+      margin-left: get-size("400");
+      padding-left: 0;
+      list-style: none;
+    }
+
+    &__nav-secondary {
+      margin: get-size("700") 0;
+
+      li {
+        margin-bottom: get-size("400");
+
+        a {
+          color: #fff;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    &__social {
+      ul {
+        display: flex;
+
+        li {
+          margin-right: get-size("300");
+        }
+
+        svg {
+          fill: #fff;
+        }
+      }
+    }
   }
 
   &__brand {

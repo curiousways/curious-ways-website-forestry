@@ -8,27 +8,8 @@ $outputTokenCSS: false;
 @import "../../node_modules/gorko/gorko.scss";
 
 // Pull in blocks
+@import "blocks/work-listing";
 @import "blocks/work-details";
 @import "blocks/work-gallery";
 @import "blocks/work-pagination";
 @import "blocks/work-themes";
-
-.work-listing {
-  margin-bottom: get-size("800");
-  display: grid;
-  grid-gap: var(--auto-grid-gap, get-size("900"))
-    var(--auto-grid-gap, get-size("500"));
-  grid-template-columns: 1fr;
-
-  @include media-query("md") {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  &__media {
-    box-shadow: var(--box-shadow);
-  }
-
-  &__summary {
-    margin-bottom: get-size("500");
-  }
-}
