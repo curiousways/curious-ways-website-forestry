@@ -3,9 +3,12 @@
   margin-bottom: get-size("major");
 
   &__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     @include media-query("md") {
-      display: flex;
-      justify-content: space-between;
+      flex-direction: row;
     }
 
     a {
@@ -19,11 +22,20 @@
       margin-bottom: get-size("300");
     }
 
+    &__prev {
+      order: 1;
+      @include media-query("md") {
+        order: 0;
+      }
+    }
+
     &__next {
-      margin-top: get-size("800");
+      order: 0;
+      margin-bottom: get-size("800");
 
       @include media-query("md") {
         margin-top: 0;
+        order: 1;
         text-align: right;
       }
     }

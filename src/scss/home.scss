@@ -24,23 +24,24 @@ $outputTokenCSS: false;
 }
 
 @keyframes slideIn {
-	from { background-position: top left, bottom right; }
-	to { background-position: top right, bottom left; }
+  from {
+    background-position: top left, bottom right;
+  }
+  to {
+    background-position: top right, bottom left;
+  }
 }
 
-.bg--home {
+.bg--home.loaded {
   background-image: url("/images/bg_home--right@1x.png"),
     url("/images/bg_home--left@1x.png");
   background-position: top right, bottom left;
   background-size: 1200px;
-	animation: slideIn ease 0.5s;
+  animation: slideIn ease 0.5s;
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     background-image: url("/images/bg_home--right@2x.png"),
       url("/images/bg_home--left@2x.png");
-    background-position: top right, bottom left;
-    background-size: 1200px;
-	  animation: slideIn ease 0.5s;
   }
 }
 

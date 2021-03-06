@@ -8,6 +8,11 @@
       <burger-menu max-width="600" style="margin-left: auto">
         <nav class="[ nav ] [ site-head__nav ]" aria-label="Primary">
           <ul class="nav__list">
+            
+            {% set linkURL= "/" %}
+            {% set linkText = "Home" %}
+            <li class="burger-only">{% include "partials/link.njk" %}</li>
+
             {% for item in navigation.items %}
               {% set linkURL= item.url %}
               {% set linkText = item.text %}
@@ -16,26 +21,17 @@
             {% endfor %}
           </ul>
         </nav>
+
+        <div class="burger-only">
+          <div class="[ site-head__inner__nav-secondary text-500 font-header-reg ]">
+            {% include "partials/nav-secondary.njk" %}
+          </div>
+          <div class="[ site-head__inner__social ]">
+            {% include "partials/nav-social.njk" %}
+          </div>
+        </div>
+
       </burger-menu>
     </div>
   </div>
 </header>
-
-{# <a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
-<header role="banner" class="site-head">
-  <div class="site-head__inner">
-    <a href="/" aria-label="{{ site.name }} - Home" class="site-head__brand">
-      {% include "partials/brand.njk" %}
-    </a>
-    <nav class="[ nav ] [ site-head__nav ]" aria-label="Primary">
-      <ul class="nav__list">
-        {% for item in navigation.items %}
-          {% set linkURL= item.url %}
-          {% set linkText = item.text %}
-          {% set linkData = helpers.getLinkActiveState(item.url, page.url) | safe %}
-          <li>{% include "partials/link.njk" %}</li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </div>
-</header> #}

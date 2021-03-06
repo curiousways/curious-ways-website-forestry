@@ -3,7 +3,7 @@
 {# {% set bodyClass = 'page-home bg bg--home home-video--load' %} #}
 {% set bodyClass = 'page-home bg bg--home' %}
 {# {% set pageID = 'page-home' %} #}
-{# {% set pageScript = '/js/home-video.js' %} #}
+{% set pageScript = '/js/home.js' %}
 
 {% block content %}
 
@@ -11,7 +11,7 @@
 
 <div class="wrapper">
 
-	<article class="home animate__animated animate__fadeIn">
+	<article class="home animate__animated animate__fadeIn animate__delay-1s">
 
 		<div class="[ home__content ] [ flow ] [ line-break--xl ]">
 			<span class="home__intro font-header-light weight-light">{{ home.intro | safe }}</span>

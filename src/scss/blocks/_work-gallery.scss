@@ -5,29 +5,25 @@
   margin-right: auto;
   max-width: 75rem;
 
+  @media (max-width: 1150px) {
+    max-width: 1020px;
+  }
+
+  @media (max-width: 767px) {
+    max-width: 600px;
+  }
+
+  @media (max-width: 399px) {
+    max-width: 375px;
+  }
+
   img {
     margin: auto;
     box-shadow: var(--box-shadow);
-
-    @include media-query("sm") {
-      margin: 0 get-size("400");
-    }
-  }
-
-  &__content {
-    text-align: center;
-
-    @include media-query("sm") {
-      padding: 0 get-size("400");
-    }
-
-    @include media-query("lg") {
-      text-align: left;
-    }
   }
 
   &__heading {
-    background: get-color('orange');
+    background: get-color("orange");
     color: #fff;
     padding: 0.5rem;
     display: inline-block;
