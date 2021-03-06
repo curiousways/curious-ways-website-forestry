@@ -8,6 +8,7 @@
   }
 
   &__inner {
+    height: 50px; // to account for hiding the logo on the homepage
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
