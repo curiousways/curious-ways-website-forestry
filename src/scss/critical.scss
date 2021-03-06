@@ -12,7 +12,11 @@
 :root {
   --flow-space: #{get-size("600")};
   --link-trans: all 0.4s ease-out;
-  --link-grad: linear-gradient(58deg, #f9ae22 25%, #e3767f 72%);
+  --link-grad: linear-gradient(
+    58deg,
+    #{get-color("yellow")} 25%,
+    #{get-color("peach")} 72%
+  );
   --box-shadow: -1px 0px 20px 5px rgba(0, 0, 0, 0.05);
   --animate-delay: 0.35s;
 }
@@ -92,7 +96,7 @@ h4 {
 
   // We set this as an RGBA because that’s how you get a solid color, by using 0.99
   // alpha value. Browsers are wild.
-  background: rgba(get-color("purple"), 0.99);
+  background: rgba(get-color("peach"), 0.99);
 }
 
 // Import blocks
