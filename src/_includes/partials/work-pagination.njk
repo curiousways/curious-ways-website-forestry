@@ -4,7 +4,7 @@
     <div class="work-pagination__items">
 
       {% for item in paginationPrev %}
-        <div>
+        <div class="work-pagination__items__prev">
           <small>Previous Project</small>
           {% set linkURL= item.prevLink %}
           {% set linkText = item.prevTitle %}
