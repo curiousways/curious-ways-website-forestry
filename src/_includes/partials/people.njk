@@ -7,10 +7,10 @@
         <img 
           class="[ person__image ]"
           srcset="
-            https://res.cloudinary.com/curiousways/image/upload/c_scale,w_200/{{ item.data.image }}.png,
-            https://res.cloudinary.com/curiousways/image/upload/c_scale,w_400/{{ item.data.image }}.png 2x"
+            {{ site.cloudURL }}/c_scale,w_200/{{ item.data.image }}.png,
+            {{ site.cloudURL }}/c_scale,w_400/{{ item.data.image }}.png 2x"
           src="
-            https://res.cloudinary.com/curiousways/image/upload/c_scale,w_400/{{ item.data.image }}.png"
+            {{ site.cloudURL }}/c_scale,w_400/{{ item.data.image }}.png"
           alt="
             Image of {{ item.data.name }}"
           draggable="false"

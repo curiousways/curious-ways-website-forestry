@@ -1,4 +1,3 @@
-{% set cloudURL = "https://res.cloudinary.com/curiousways/image/upload" %}
 {% set cloudQ = "q_60" %}
 
 <picture>
@@ -6,41 +5,41 @@
     <!-- WebP -->
   <source 
     srcset="
-    {{ cloudURL }}/c_scale,w_439/{{ cloudQ }}/{{ item.data.hero.image }}.webp 439w, 
-    {{ cloudURL }}/c_scale,w_878/{{ cloudQ }}/{{ item.data.hero.image }}.webp 2x" 
+    {{ site.cloudURL }}/c_scale,w_439/{{ cloudQ }}/{{ item.data.hero.image }}.webp 439w, 
+    {{ site.cloudURL }}/c_scale,w_878/{{ cloudQ }}/{{ item.data.hero.image }}.webp 2x" 
     media="(min-width: 0) and (max-width: 499px)" type="image/webp">
   <!-- JPG -->
   <source 
-    srcset="{{ cloudURL }}/c_scale,w_439/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 439w, 
-    {{ cloudURL }}/c_scale,w_878/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 2x" 
+    srcset="{{ site.cloudURL }}/c_scale,w_439/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 439w, 
+    {{ site.cloudURL }}/c_scale,w_878/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 2x" 
     media="(min-width: 0) and (max-width: 499px)" type="image/jpeg">
 
   <!-- Medium screens -->
     <!-- WebP -->
   <source 
-    srcset="{{ cloudURL }}/c_scale,w_710/{{ cloudQ }}/{{ item.data.hero.image }}.webp 710w,
-    {{ cloudURL }}/c_scale,w_1420/{{ cloudQ }}/{{ item.data.hero.image }}.webp 2x" 
+    srcset="{{ site.cloudURL }}/c_scale,w_710/{{ cloudQ }}/{{ item.data.hero.image }}.webp 710w,
+    {{ site.cloudURL }}/c_scale,w_1420/{{ cloudQ }}/{{ item.data.hero.image }}.webp 2x" 
     media="(min-width: 500px) and (max-width: 767px)" type="image/webp">
   <!-- JPG -->
   <source 
-    srcset="{{ cloudURL }}/c_scale,w_710/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 710w, 
-    {{ cloudURL }}/c_scale,w_1420/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 2x" 
+    srcset="{{ site.cloudURL }}/c_scale,w_710/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 710w, 
+    {{ site.cloudURL }}/c_scale,w_1420/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 2x" 
     media="(min-width: 500px) and (max-width: 767px)" type="image/jpeg">
 
   <!-- Large screens -->
     <!-- WebP -->
   <source 
-    srcset="{{ cloudURL }}/c_scale,w_500/{{ cloudQ }}/{{ item.data.hero.image }}.webp 500w, 
-    {{ cloudURL }}/c_scale,w_1000/{{ cloudQ }}/{{ item.data.hero.image }}.webp 2x"
+    srcset="{{ site.cloudURL }}/c_scale,w_500/{{ cloudQ }}/{{ item.data.hero.image }}.webp 500w, 
+    {{ site.cloudURL }}/c_scale,w_1000/{{ cloudQ }}/{{ item.data.hero.image }}.webp 2x"
     media="(min-width: 768px)" type="image/webp">
     <!-- JPG -->
     <source 
-    srcset="{{ cloudURL }}/c_scale,w_500/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 500w, 
-    {{ cloudURL }}/c_scale,w_1000/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 2x"
+    srcset="{{ site.cloudURL }}/c_scale,w_500/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 500w, 
+    {{ site.cloudURL }}/c_scale,w_1000/{{ cloudQ }}/{{ item.data.hero.image }}.jpg 2x"
     media="(min-width: 768px)" type="image/jpeg">
   
   <!-- Fallback / properties -->
-  <img src="{{ cloudURL }}/c_scale,w_1000/{{ cloudQ }}/{{ item.data.hero.image }}.jpg" 
+  <img src="{{ site.cloudURL }}/c_scale,w_1000/{{ cloudQ }}/{{ item.data.hero.image }}.jpg" 
     alt="{{ imageAlt }} - preview thumbnail image"
     aria-hidden="true"
     lazy="true"
