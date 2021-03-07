@@ -48,25 +48,10 @@ $outputTokenCSS: false;
 .home {
   display: flex;
   align-items: center;
-
-  @media (min-width: 600px) and (min-height: 800px) {
-    // TODO change pixel value when height of footer and header is known;
-    // Header = 200px
-    // Footer = 78px
-    height: calc(
-      100vh - 278px
-    ); // 100vh minus the height of the footer + height of the header. Heights based on content + padding totals
-  }
-
-  padding-bottom: get-size("800");
+  padding: get-size("300") 0 get-size("800");
 
   @include media-query("md") {
     max-width: 700px;
-    // padding: 0;
-  }
-
-  @media (min-width: 48em) and (min-height: 800px) {
-    transform: translateY(-5rem);
   }
 
   @include media-query("xxl") {
@@ -89,18 +74,18 @@ $outputTokenCSS: false;
   }
 }
 
-.home-video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  transition: all 1.5s;
-
-  &--finished {
-    opacity: 0;
-    z-index: 0;
-  }
-}
+// .home-video {
+//   object-fit: cover;
+//   width: 100vw;
+//   height: 100vh;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   z-index: 1;
+//   transition: all 1.5s;
+//
+//   &--finished {
+//     opacity: 0;
+//     z-index: 0;
+//   }
+// }

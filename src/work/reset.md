@@ -20,7 +20,7 @@ servicesList:
   - service: "Print design"
   - service: "Research strategy"
   - service: "Tone of Voice"
-  - service: "UX strategy "
+  - service: "UX strategy"
   - service: "Website design & build"
 gallery:
   - title: "Brand design"

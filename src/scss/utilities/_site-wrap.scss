@@ -1,9 +1,17 @@
 .site-wrap {
   overflow-x: hidden;
-  // position: relative; // NAV CHECK
-  // TODO change pixel value when height of footer is known;
-  // Footer height = 78px
-  min-height: calc(
-    100vh - 78px
-  ); // Height of the footer based on content and padding rules
+
+  @media (min-width: 768px) and (min-height: 800px) {
+    // Footer height = 78px
+    min-height: calc(
+      100vh - 78px
+    ); // Height of the footer based on content and padding rules
+  }
+
+  @media (max-width: 767px) and (min-height: 700px) {
+    // Footer height = 110px
+    min-height: calc(
+      100vh - 120px
+    ); // Height of the footer based on content and padding rules
+  }
 }
