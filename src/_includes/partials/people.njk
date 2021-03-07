@@ -4,17 +4,31 @@
     {% for item in peopleItems %}
     <li>
       <figure class="[ person ] [ flow flow-space-300 ]">
-        <img 
-          class="[ person__image ]"
-          srcset="
-            https://res.cloudinary.com/curiousways/image/upload/c_scale,w_200/{{ item.data.image }}.png,
-            https://res.cloudinary.com/curiousways/image/upload/c_scale,w_400/{{ item.data.image }}.png 2x"
-          src="
-            https://res.cloudinary.com/curiousways/image/upload/c_scale,w_400/{{ item.data.image }}.png"
-          alt="
-            Image of {{ item.data.name }}"
-          draggable="false"
-        >
+        <picture>
+          <!-- WebP -->
+          <source 
+            srcset="
+            {{ site.cloudURL }}/c_scale,w_200/{{ item.data.image }}.webp, 
+            {{ site.cloudURL }}/c_scale,w_200/{{ item.data.image }}.webp 2x"
+            type="image/webp">
+            <!-- JPG -->
+          <source 
+            srcset="
+            {{ site.cloudURL }}/c_scale,w_200/{{ item.data.image }}.png, 
+            {{ site.cloudURL }}/c_scale,w_400/{{ item.data.image }}.png 2x"
+            type="image/png">
+        
+          <!-- Fallback / properties -->
+          <img src="{{ site.cloudURL }}/c_scale,w_400/{{ item.data.image }}.png"
+            class="[ person__image ]"
+            alt="Image of {{ item.data.name }}"
+            lazy="true"
+            height="200"
+            width="200"
+            draggable="false"
+          >
+        </picture>
+
         <figcaption class="[ person__details ] [ flow flow-space-300 ] [ leading-tight ]">
           <h2 class="[ person__name ]">{{ item.data.name }}</h2>
           {% if item.data.title %}

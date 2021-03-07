@@ -8,7 +8,7 @@
     font-size: get-size("500");
 
     > * {
-      margin-inline-start: get-size("500");
+      margin-left: get-size("400");
 
       @media (min-width: 700px) {
         margin-inline-start: get-size("800");
