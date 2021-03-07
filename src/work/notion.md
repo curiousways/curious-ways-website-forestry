@@ -1,5 +1,6 @@
 ---
 title: "Notion"
+metaDesc: "We helped to double Notion's online readership in less than a year."
 displayOrder: 2
 bodyClass: "theme--notion"
 workTitle: "Notion"

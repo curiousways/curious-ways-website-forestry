@@ -1,6 +1,6 @@
 ---
-title: "Curious Ways"
-metaDesc: "We are creative partners who help all kinds of organisations to think straight, look good and be successful"
+title: "Builders of brands, makers of websites"
+metaDesc: "We’re builders of brands and makers of websites and campaigns"
 layout: "layouts/home.njk"
 home:
   intro: "<em>Hello.</em>"
