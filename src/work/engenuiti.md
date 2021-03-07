@@ -1,5 +1,6 @@
 ---
 title: "Engenuiti"
+metaDesc: "We helped Engenuiti celebrate their 10th anniversary with new branding and website."
 displayOrder: 4
 bodyClass: "theme--engenuiti"
 workTitle: "Engenuiti"

@@ -1,5 +1,6 @@
 ---
 title: "Regenerative Pathways"
+metaDesc: "We built a B2B website promoting regenerative business practices"
 displayOrder: 3
 bodyClass: "theme--regenerative-pathways"
 workTitle: "Regenerative Pathways"

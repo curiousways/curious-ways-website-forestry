@@ -1,5 +1,6 @@
 ---
 title: "Reset"
+metaDesc: "We worked with the All-Party Parliamentary Group to build a brand and website"
 displayOrder: 6
 bodyClass: "theme--reset"
 workTitle: "Reset"

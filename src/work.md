@@ -1,6 +1,5 @@
 ---
 title: "Our work"
 layout: "layouts/work-landing.njk"
-featuredWork:
-  title: "Latest work"
+metaDesc: "Some recent work that we’re proud of - building brands, websites and campaigns"
 ---
