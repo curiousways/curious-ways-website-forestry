@@ -34,9 +34,9 @@ gallery:
     imageRectangle: "v1614439365/cwys_website/Pickups_portfolio_rectangle_4_qjx5in"
     imageSquare: "v1614439502/cwys_website/Pickups_portfolio_square_4_HERO_vjpb5l"
 paginationPrev:
-  - prevLink: "/work/teamstand/"
-    prevTitle: "Teamstand"
+  - prevLink: "/work/engenuiti/"
+    prevTitle: "Engenuiti"
 paginationNext:
-  - nextLink: "/work/en-trade/"
-    nextTitle: "EnTrade"
+  - nextLink: "/work/reset/"
+    nextTitle: "Reset"
 ---

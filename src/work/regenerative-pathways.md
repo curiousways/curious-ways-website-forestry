@@ -35,6 +35,6 @@ paginationPrev:
   - prevLink: "/work/notion/"
     prevTitle: "Notion"
 paginationNext:
-  - nextLink: "/work/maxlight/"
-    nextTitle: "Maxlight"
+  - nextLink: "/work/engenuiti/"
+    nextTitle: "Engenuiti"
 ---

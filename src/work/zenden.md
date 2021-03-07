@@ -36,8 +36,8 @@ gallery:
     imageRectangle: "v1614435870/cwys_website/zenden_portfolio_rectangle_v4_bxkrye"
     imageSquare: "v1614435893/cwys_website/zenden_portfolio_square_v5_cwbw94"
 paginationPrev:
-  - prevLink: "/work/en-trade/"
-    prevTitle: "EnTrade"
+  - prevLink: "/work/reset/"
+    prevTitle: "Reset"
 paginationNext:
   - nextLink: "/work/notion/"
     nextTitle: "Notion"
