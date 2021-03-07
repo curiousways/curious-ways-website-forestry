@@ -1,7 +1,7 @@
 .site-wrap {
   overflow-x: hidden;
 
-  @media (min-width: 768px) and (min-height: 800px) {
+  @media (min-width: 768px) and (min-height: 700px) {
     // Footer height = 78px
     min-height: calc(
       100vh - 78px

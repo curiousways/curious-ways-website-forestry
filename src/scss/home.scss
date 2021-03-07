@@ -46,8 +46,6 @@ $outputTokenCSS: false;
 }
 
 .home {
-  display: flex;
-  align-items: center;
   padding: get-size("300") 0 get-size("800");
 
   @include media-query("md") {
