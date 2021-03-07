@@ -35,7 +35,9 @@
     }
 
     @include media-query("lg") {
-      margin-left: get-size("800");
+      @supports (display: grid) {
+        margin-left: get-size("800");
+      }
     }
 
     ul {
@@ -105,7 +107,9 @@
     }
 
     @include media-query("lg") {
-      margin-left: get-size("800");
+      @supports (display: grid) {
+        margin-left: get-size("800");
+      }
     }
 
     a {

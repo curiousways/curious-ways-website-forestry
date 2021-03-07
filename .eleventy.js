@@ -1,6 +1,6 @@
 module.exports = (config) => {
   // Set directories to pass through to the dist folder
-  // config.addPassthroughCopy('./src/images/');
+  config.addPassthroughCopy("./src/images/meta/");
   config.addPassthroughCopy("./src/fonts/");
   config.addPassthroughCopy("./src/video/");
   config.addPassthroughCopy("./src/js/");
