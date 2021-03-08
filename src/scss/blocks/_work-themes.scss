@@ -16,7 +16,7 @@
     background-image: linear-gradient(
       $grad-deg,
       $color 1%,
-      $grad-end-color $grad-end-percentage
+      $color $grad-end-percentage
     );
   }
   .work-details__quote:before {
