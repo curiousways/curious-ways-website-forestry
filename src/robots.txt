@@ -1,0 +1,4 @@
+Sitemap: https://curiousways.com/sitemap.xml
+
+User-agent: *
+Disallow:
