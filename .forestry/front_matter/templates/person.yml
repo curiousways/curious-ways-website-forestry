@@ -13,7 +13,7 @@ fields:
   label: key
 - type: boolean
   name: sitemapExclude
-  label: sitemapExclude
+  label: Exclude from sitemap?
   default: true
   hidden: true
 - name: image
