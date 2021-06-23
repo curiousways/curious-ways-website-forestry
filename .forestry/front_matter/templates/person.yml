@@ -22,4 +22,5 @@ fields:
     maxSize: 64
   label: image
 pages:
+- src/people/1.md
 - src/people/5.md
