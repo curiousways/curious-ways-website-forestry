@@ -9,8 +9,8 @@ sections:
   label: People
   create: documents
   match: "*.md"
-upload_dir: ''
-public_path: ''
+upload_dir: cwys_website
+public_path: cwys_website
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
