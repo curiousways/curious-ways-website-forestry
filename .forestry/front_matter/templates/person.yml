@@ -23,4 +23,5 @@ fields:
   label: image
 pages:
 - src/people/1.md
+- src/people/2.md
 - src/people/5.md
